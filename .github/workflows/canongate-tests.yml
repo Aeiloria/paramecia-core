@@ -1,0 +1,35 @@
+name: Canongate tests
+
+on:
+  pull_request:
+    paths:
+      - 'canongate/**'
+      - 'tests/test_canongate*.py'
+      - 'canon/registries/canon-governance.json'
+      - '.github/workflows/canongate-tests.yml'
+  push:
+    branches:
+      - main
+    paths:
+      - 'canongate/**'
+      - 'tests/test_canongate*.py'
+      - 'canon/registries/canon-governance.json'
+      - '.github/workflows/canongate-tests.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  canongate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Run Canongate regression tests
+        run: python -m unittest discover -s tests -p 'test_canongate*.py' -v
