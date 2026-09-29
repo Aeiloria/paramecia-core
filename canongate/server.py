@@ -3,6 +3,7 @@ from __future__ import annotations
 import os
 from pathlib import Path
 
+from .asset_ingest import ingest_asset_manifest
 from .engine import CanonGate
 
 
@@ -19,6 +20,7 @@ def main() -> None:
         raise SystemExit("MCP package not installed. Install `mcp`, then run `python -m canongate.server`.") from exc
 
     gate = build_gate()
+    receipt_log = Path(os.environ.get("PARAMECIA_CANONGATE_RECEIPTS", "build/canongate-ingest-receipts.jsonl"))
     mcp = FastMCP("Paramecia Canongate")
 
     @mcp.tool()
@@ -28,8 +30,17 @@ def main() -> None:
 
     @mcp.tool()
     def scan_asset(asset: dict) -> dict:
-        """Validate one asset record and its canon-facing metadata before ingestion."""
+        """Validate one asset record and its canon-facing metadata without staging it."""
         return gate.scan_asset(asset).to_dict()
+
+    @mcp.tool()
+    def ingest_asset(asset: dict) -> dict:
+        """Gate one asset manifest and issue an auditable staging receipt.
+
+        PASS/WARN may enter staging; REJECT may not. This tool never promotes
+        canon and every receipt records canon_promoted=false.
+        """
+        return ingest_asset_manifest(asset, gate=gate, receipt_log=receipt_log).to_dict()
 
     @mcp.resource("paramecia://canongate/status")
     def status() -> dict:
@@ -40,6 +51,8 @@ def main() -> None:
             "authority_root": gate.governance.get("authority", {}).get("root"),
             "can_promote_canon": False,
             "audit_log": str(gate.audit_log) if gate.audit_log else None,
+            "receipt_log": str(receipt_log),
+            "tools": ["scan_lore", "scan_asset", "ingest_asset"],
         }
 
     mcp.run()
