@@ -1,0 +1,27 @@
+name: Hells Branch Validate
+
+on:
+  push:
+    paths:
+      - 'experiments/hells-branch-runtime/**'
+  pull_request:
+    paths:
+      - 'experiments/hells-branch-runtime/**'
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: experiments/hells-branch-runtime
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Validate runtime and canon invariants
+        run: npm run validate

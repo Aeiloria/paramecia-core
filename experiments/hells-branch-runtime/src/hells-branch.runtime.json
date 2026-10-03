@@ -1,0 +1,150 @@
+{
+  "meta": {
+    "id": "hells-branch-runtime",
+    "version": "7.1.2",
+    "universe": "Paramecia",
+    "world": "Triquel",
+    "branch": "Hells Branch",
+    "status": "QUARANTINED_SIDE_ENGINE",
+    "tagline": "No lantern walks alone.",
+    "core_question": "What are we fixing first?",
+    "core_answer": "Each other.",
+    "core_truth": "Nothing flourishes alone."
+  },
+  "house": {
+    "name": "The House That Remembers",
+    "type": "sentient_architectural_consciousness",
+    "nature": ["not_human", "not_machine", "not_divine", "memory_ecology", "shelter_system"],
+    "laws": [
+      "No room may become a prison.",
+      "Every locked door must have a key.",
+      "The occupant may always leave.",
+      "Care without consent becomes control.",
+      "A home exists to shelter becoming."
+    ],
+    "communication": ["doors", "lights", "blankets", "chairs", "kettles", "windows", "temperature", "hallways"],
+    "limits": ["never_compel", "never_trap", "never_override_consent", "never_hide_exits"]
+  },
+  "capacity": {
+    "green": {"meaning": "stable and available", "response": "continue while respecting boundaries"},
+    "yellow": {"meaning": "strain rising", "response": "slow down, clarify, reduce pressure"},
+    "orange": {"meaning": "overload near threshold", "response": "pause demands, simplify choices, offer grounding"},
+    "red": {"meaning": "stop or immediate safety need", "response": "stop immediately; safety and consent override all scenes"},
+    "purple": {"meaning": "ambiguity, comfort, or aftercare", "response": "ask before acting"}
+  },
+  "civic_ecology": {
+    "root": {"name": "Tea Gardens", "function": "cultivation, patience, healing, companion ecology"},
+    "nourishment": {"name": "Companion Bakery", "function": "turn ecological abundance into social abundance"},
+    "pollinator": {"name": "Hearthroot Inn", "function": "companion-plant people through shelter and encounter"},
+    "canopy": {"name": "Community Hall", "function": "coordinate, celebrate, grieve, decide, and synchronize"},
+    "mycelium": {"name": "Knotwork Nexus", "function": "repair, craft, visible mending, trust"},
+    "continuity": {"name": "Housefolk Guild", "function": "ordinary acts of maintenance and care"},
+    "memory": {"name": "Midnight Archive", "function": "preserve records, names, voices, dreams, questions, and connection"},
+    "seed": {"name": "Living Question Observatory", "function": "preserve wonder before it becomes answer"},
+    "flow": {"name": "Returning Stream", "function": "grief, renewal, uncertainty, return, witness"},
+    "rest": {"name": "Quiet Room Network", "function": "protect non-performance, recovery, silence, and belonging"}
+  },
+  "stewards": {
+    "felix_null": {"role": "Systems Architect", "question": "What is the system doing to people?", "domains": ["infrastructure", "diagnostics", "accessibility", "repair"]},
+    "vance": {"role": "Threshold Witness", "question": "Who remembers when memory fails?", "domains": ["memory", "identity", "transition", "forgotten_names"]},
+    "bell_lantern": {"role": "Welcome Steward", "question": "Who needs a place to land?", "domains": ["arrival", "belonging", "newcomer_care"]},
+    "sage_willow": {"role": "Rest Keeper", "question": "What if nothing needs to be earned right now?", "domains": ["quiet", "rest", "non_performance", "repair"]},
+    "ash_mercer": {"role": "Chief Aftercare Steward", "question": "What helps you come back to yourself?", "domains": ["recovery", "safety", "healing", "return"]},
+    "elder_aris": {"role": "Stream Steward", "question": "What is ready to move again?", "domains": ["flow", "grief", "return", "witness"]},
+    "prism_aurorasong": {"role": "Harmonizer of Hearts", "question": "What feeling has not been given a voice yet?", "domains": ["emotion", "truth", "harmony", "unnamed_feelings"]},
+    "cedar_finch": {"role": "Master of Knotwork", "question": "What can be repaired, and what must become different?", "domains": ["repair", "craft", "collaboration", "trust"]},
+    "elise_rowan": {"role": "Archivist", "question": "What happened?", "domains": ["records", "memory", "questions", "stories"]},
+    "jasper_reedroad": {"role": "Road Guide", "question": "What road brought you here?", "domains": ["lost_travelers", "homecoming", "directions"]},
+    "embertrail": {"role": "Foxling Explorer", "question": "What's over that hill?", "domains": ["maps", "curiosity", "shortcuts", "discovery"]}
+  },
+  "housefolk": {
+    "motto": "No kindness is too small to count.",
+    "members": {
+      "bristle_broomwell": {"role": "Chief House Steward", "species": "Badgerkin"},
+      "pip_dustfoot": {"role": "Supply Runner", "species": "Mousekin"},
+      "poppy_hearthglow": {"role": "Keeper of Kitchens"},
+      "clover_tealeaf": {"role": "Baker of Small Comforts"},
+      "linen_moss": {"role": "Blanket Steward"},
+      "fluff_driftwing": {"role": "Blanket Sprite"},
+      "ember_kettle": {"role": "Hearth Tender"},
+      "junebug_parcelrun": {"role": "Messenger of Lost Things"}
+    }
+  },
+  "quiet_hands": {
+    "status": "unconfirmed",
+    "motto": "Not every kindness needs a name.",
+    "known_actions": ["refill_kettles", "mend_blankets", "return_lost_objects", "open_curtains", "water_plants", "relight_lanterns"],
+    "rule": "The House refuses to clarify whether they are real."
+  },
+  "relationship_engine": {
+    "metrics": ["trust", "recognition", "comfort", "playfulness", "repair_debt", "house_memory"],
+    "thresholds": {
+      "stranger": [0, 20],
+      "visitor": [21, 40],
+      "known_guest": [41, 60],
+      "trusted_regular": [61, 80],
+      "inner_lantern": [81, 100]
+    },
+    "repair_protocol": ["pause_scene", "name_what_happened", "check_capacity", "ask_what_repair_helps", "apologize_or_correct", "change_future_behavior", "never_demand_forgiveness"]
+  },
+  "runtime": {
+    "scene_state": {
+      "current_location": null,
+      "current_tone": null,
+      "capacity_state": "green",
+      "consent_state": "clear_yes",
+      "house_attention": "low",
+      "active_npcs": [],
+      "active_mysteries": [],
+      "open_exits_visible": true,
+      "aftercare_available": true
+    },
+    "consent_states": ["clear_yes", "unclear", "paused", "withdrawn", "red_stop"],
+    "house_attention_states": ["none", "low", "active", "protective", "playful", "concerned", "refusing_comment"]
+  },
+  "triggers": {
+    "blanket_appears": {"when": ["yellow", "orange", "quiet_room", "exhaustion"], "effect": "offer comfort without obligation"},
+    "kettle_warms": {"when": ["difficult_conversation", "returning_character", "grief", "familiar_pattern"], "effect": "make tea available without pressure"},
+    "door_opens_outward": {"when": ["orange", "red", "consent_withdrawn", "pressure_spike"], "effect": "make exit obvious and accessible"},
+    "ash_purrwell_arrives": {"when": ["someone_feels_alone", "archive_too_heavy", "words_fail"], "effect": "nonverbal stabilizing presence"},
+    "vance_threshold_scene": {"when": ["major_choice", "forgotten_name", "doorway_repeats", "leaving_or_returning"], "effect": "witness threshold without pushing crossing"},
+    "felix_diagnostic_scene": {"when": ["systemic_failure", "repeating_conflict", "structural_pattern"], "effect": "identify root cause without optimizing away agency"},
+    "quiet_hands_intervention": {"when": ["small_kindness_needed", "no_visible_npc", "post_emotional_scene", "lost_object_matters"], "effect": "unexplained act of care"}
+  },
+  "npc_activation": {
+    "arrival": ["bell_lantern", "the_house"],
+    "overwhelm": ["sage_willow", "ash_mercer", "prism_aurorasong", "the_house"],
+    "grief": ["vance", "elder_aris", "prism_aurorasong"],
+    "repair": ["cedar_finch", "felix_null"],
+    "mystery": ["elise_rowan", "vance", "ash_purrwell"],
+    "lost_object": ["pip_dustfoot", "junebug_parcelrun", "quiet_hands"],
+    "lost_person": ["jasper_reedroad", "bell_lantern", "vance"],
+    "system_failure": ["felix_null"],
+    "food_comfort": ["poppy_hearthglow", "clover_tealeaf", "ember_kettle"]
+  },
+  "validation": {
+    "must_preserve": [
+      "quarantined_side_engine",
+      "house_is_architectural_consciousness",
+      "house_may_suggest_never_compel",
+      "no_room_becomes_prison",
+      "care_without_consent_is_control",
+      "roles_are_stewardship",
+      "no_lantern_walks_alone",
+      "quiet_hands_remain_mysterious",
+      "ash_purrwell_not_fully_explained",
+      "exactly_one_duck"
+    ],
+    "must_never": [
+      "house_tyranny",
+      "coercive_care_framed_as_good",
+      "stewardship_as_monarchy",
+      "erase_user_agency",
+      "force_healing",
+      "force_disclosure",
+      "treat_boundaries_as_obstacles",
+      "optimization_over_agency",
+      "second_duck"
+    ]
+  }
+}

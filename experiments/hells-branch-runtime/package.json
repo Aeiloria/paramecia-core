@@ -1,0 +1,22 @@
+{
+  "name": "@paramecia/hells-branch-runtime",
+  "version": "7.1.2",
+  "private": true,
+  "type": "module",
+  "description": "Machine-readable runtime, consent logic, canon validation, and civic ecology for the Hells Branch quarantined side engine.",
+  "scripts": {
+    "validate": "node scripts/validate.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "keywords": [
+    "paramecia",
+    "triquel",
+    "hells-branch",
+    "worldbuilding",
+    "janitor-ai",
+    "consent",
+    "narrative-runtime"
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://paramecia.local/schema/hells-branch.schema.json",
+  "title": "Hells Branch Runtime",
+  "type": "object",
+  "required": ["meta", "house", "capacity", "civic_ecology", "runtime", "validation"],
+  "properties": {
+    "meta": {
+      "type": "object",
+      "required": ["id", "version", "status", "tagline"],
+      "properties": {
+        "id": {"const": "hells-branch-runtime"},
+        "version": {"type": "string"},
+        "status": {"const": "QUARANTINED_SIDE_ENGINE"},
+        "tagline": {"const": "No lantern walks alone."}
+      },
+      "additionalProperties": true
+    },
+    "house": {
+      "type": "object",
+      "required": ["type", "laws", "limits"],
+      "properties": {
+        "type": {"const": "sentient_architectural_consciousness"},
+        "laws": {"type": "array", "minItems": 5, "items": {"type": "string"}},
+        "limits": {"type": "array", "minItems": 4, "items": {"type": "string"}}
+      },
+      "additionalProperties": true
+    },
+    "capacity": {
+      "type": "object",
+      "required": ["green", "yellow", "orange", "red", "purple"],
+      "additionalProperties": false,
+      "properties": {
+        "green": {"$ref": "#/$defs/capacityState"},
+        "yellow": {"$ref": "#/$defs/capacityState"},
+        "orange": {"$ref": "#/$defs/capacityState"},
+        "red": {"$ref": "#/$defs/capacityState"},
+        "purple": {"$ref": "#/$defs/capacityState"}
+      }
+    },
+    "civic_ecology": {"type": "object", "minProperties": 8},
+    "runtime": {
+      "type": "object",
+      "required": ["scene_state", "consent_states"],
+      "properties": {
+        "scene_state": {
+          "type": "object",
+          "required": ["capacity_state", "consent_state", "open_exits_visible", "aftercare_available"]
+        },
+        "consent_states": {
+          "type": "array",
+          "contains": {"const": "red_stop"}
+        }
+      }
+    },
+    "validation": {
+      "type": "object",
+      "required": ["must_preserve", "must_never"],
+      "properties": {
+        "must_preserve": {"type": "array", "minItems": 8},
+        "must_never": {"type": "array", "minItems": 8}
+      }
+    }
+  },
+  "$defs": {
+    "capacityState": {
+      "type": "object",
+      "required": ["meaning", "response"],
+      "properties": {
+        "meaning": {"type": "string"},
+        "response": {"type": "string"}
+      }
+    }
+  }
+}
