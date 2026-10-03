@@ -1,0 +1,55 @@
+name: Source intake
+description: Register a source without silently promoting or consolidating it
+title: "[INTAKE] "
+labels: ["intake", "provenance"]
+body:
+  - type: markdown
+    attributes:
+      value: "Capture the source as evidence. An intake issue does not make it canon."
+  - type: input
+    id: source
+    attributes:
+      label: Source anchor
+      description: URL, stable file path, attachment name, message ID, or other recoverable anchor
+    validations:
+      required: true
+  - type: input
+    id: captured
+    attributes:
+      label: Capture date
+      placeholder: YYYY-MM-DD
+    validations:
+      required: true
+  - type: dropdown
+    id: workflow_state
+    attributes:
+      label: Workflow state
+      options: [RAW, INGESTED, NOTE, DRAFT, CANON_CANDIDATE, CANON]
+    validations:
+      required: true
+  - type: textarea
+    id: atomic_claims
+    attributes:
+      label: Atomic claims or contents
+      description: Keep exact source claims separate from interpretation
+    validations:
+      required: true
+  - type: textarea
+    id: identity_scope
+    attributes:
+      label: Identity and scope
+      description: People, kin, places, systems, timeline, and canon layers affected
+  - type: textarea
+    id: collisions
+    attributes:
+      label: Known contradictions or sibling versions
+      description: Preserve both sides and their anchors
+  - type: checkboxes
+    id: guardrails
+    attributes:
+      label: Intake guardrails
+      options:
+        - label: I have not treated this intake as automatic canon promotion
+          required: true
+        - label: I have preserved source wording, uncertainty, and sibling versions
+          required: true

@@ -1,0 +1,41 @@
+name: Canon collision
+description: Record conflicting claims for field-level review without flattening them
+title: "[COLLISION] "
+labels: ["collision", "canon-review"]
+body:
+  - type: input
+    id: affected_field
+    attributes:
+      label: Affected field
+      description: The smallest identity, trait, date, relationship, or rule in conflict
+    validations:
+      required: true
+  - type: textarea
+    id: claim_a
+    attributes:
+      label: Claim A and source
+    validations:
+      required: true
+  - type: textarea
+    id: claim_b
+    attributes:
+      label: Claim B and source
+    validations:
+      required: true
+  - type: textarea
+    id: compatibility
+    attributes:
+      label: Compatibility analysis
+      description: Can these be sibling canon, scoped variants, or different timepoints?
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Field-level proposal
+      description: Proposal only; do not replace whole artifacts when a field decision is enough
+  - type: dropdown
+    id: decision
+    attributes:
+      label: Current decision state
+      options: [UNREVIEWED, NEEDS_SOURCE, HOLD_BOTH, CANON_CANDIDATE]
+    validations:
+      required: true

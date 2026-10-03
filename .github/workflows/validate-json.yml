@@ -1,0 +1,38 @@
+name: Validate repository JSON
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  validate-json:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Parse every tracked JSON file
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import json
+          import pathlib
+          import sys
+
+          paths = sorted(pathlib.Path('.').rglob('*.json'))
+          failures = []
+          for path in paths:
+              try:
+                  with path.open(encoding='utf-8') as handle:
+                      json.load(handle)
+                  print(f'OK {path}')
+              except Exception as exc:
+                  failures.append(f'{path}: {exc}')
+
+          if failures:
+              print('\n'.join(failures), file=sys.stderr)
+              raise SystemExit(1)
+          print(f'Validated {len(paths)} JSON files.')
+          PY
