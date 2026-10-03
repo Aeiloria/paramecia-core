@@ -1,0 +1,21 @@
+{
+  "asset_id": "EXAMPLE-DEERKIN-SHELTER-001",
+  "description": "A root-woven Deerkin shelter whose thresholds widen around antlers and carrying posture.",
+  "scope": "TRIQUEL",
+  "requested_status": "DERIVED",
+  "provenance": {
+    "source_path": "concepts/deerkin-shelter.png",
+    "source_sha256": "REPLACE_WITH_SOURCE_FILE_SHA256"
+  },
+  "metadata": {
+    "nonhuman_body_plan": "Deerkin: antlered body plan documented before architecture",
+    "locomotion_and_sensory_needs": "Threshold clearance and circulation derive from Deerkin morphology",
+    "habitat": "Documented local habitat required before production admission",
+    "geology_and_climate": "Documented local geology and climate required before production admission",
+    "material_ecology": "Root-grown and local material relationships documented",
+    "circulation": "Movement paths derive from body plan rather than human ergonomics",
+    "civic_behavior_or_institution": "Use and gathering behavior documented",
+    "sentient_architectural_intervention": "Any responsive architectural behavior documented explicitly",
+    "derived_projection": "Production asset only; does not create or promote canon"
+  }
+}
