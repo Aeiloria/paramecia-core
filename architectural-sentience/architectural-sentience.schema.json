@@ -1,0 +1,90 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/simplyabbeyd-pixel/paramecia-core/architectural-sentience.schema.json",
+  "title": "Architectural Sentience Project Branch",
+  "type": "object",
+  "required": [
+    "architect_mark",
+    "project",
+    "core_nexus",
+    "primary_authority",
+    "human_priority",
+    "current_layer",
+    "stability",
+    "layers",
+    "materials",
+    "alien_alignments",
+    "tags"
+  ],
+  "properties": {
+    "architect_mark": {
+      "type": "string",
+      "const": "⟐🌳🏛️🜃🜂🜄🜁⟐"
+    },
+    "project": {
+      "type": "string"
+    },
+    "core_nexus": {
+      "type": "string"
+    },
+    "primary_authority": {
+      "type": "string",
+      "enum": ["Ancient Flora", "Living Architecture", "Elemental Matter", "Nonhuman Kin"]
+    },
+    "human_priority": {
+      "type": "string",
+      "enum": ["peripheral_conditional_access"]
+    },
+    "current_layer": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 13
+    },
+    "stability": {
+      "type": "string"
+    },
+    "layer_13_rule": {
+      "type": "string"
+    },
+    "layers": {
+      "type": "array",
+      "minItems": 13,
+      "items": {
+        "type": "object",
+        "required": ["layer", "name", "function", "human_access", "status"],
+        "properties": {
+          "layer": {"type": "integer", "minimum": 1, "maximum": 13},
+          "name": {"type": "string"},
+          "function": {"type": "string"},
+          "material_resonance": {"type": "array", "items": {"type": "string"}},
+          "alien_alignment": {"type": "string"},
+          "human_access": {"type": "string"},
+          "status": {"type": "string"}
+        }
+      }
+    },
+    "materials": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "array",
+        "items": {"type": "string"}
+      }
+    },
+    "alien_alignments": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["name", "archetype", "project_translation"],
+        "properties": {
+          "name": {"type": "string"},
+          "archetype": {"type": "string"},
+          "project_translation": {"type": "string"}
+        }
+      }
+    },
+    "tags": {
+      "type": "array",
+      "items": {"type": "string"}
+    }
+  }
+}
