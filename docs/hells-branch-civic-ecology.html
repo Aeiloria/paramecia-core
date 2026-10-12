@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Hells Branch Civic Ecology</title>
+  <style>
+    :root {
+      --bg: #10121c;
+      --panel: #232837;
+      --panel-2: #2d3345;
+      --text: #f5efdc;
+      --muted: #b9bfd0;
+      --gold: #ecc260;
+      --violet: #9777dd;
+      --green: #68be8a;
+      --blue: #62a4e0;
+      --red: #d25e67;
+      --silver: #b5bdca;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: radial-gradient(circle at top right, rgba(151,119,221,.16), transparent 34%), var(--bg);
+      color: var(--text);
+    }
+    .wrap { width: min(1180px, calc(100% - 32px)); margin: 0 auto; padding: 32px 0 56px; }
+    header { text-align: center; margin-bottom: 24px; }
+    h1 { margin: 0; font-size: clamp(2rem, 5vw, 4rem); letter-spacing: .08em; }
+    .subtitle { color: var(--gold); font-family: Georgia, serif; font-size: 1.25rem; margin-top: 8px; }
+    .lede { color: var(--muted); max-width: 780px; margin: 14px auto 0; }
+    .toolbar { display: flex; flex-wrap: wrap; justify-content: center; gap: 8px; margin: 24px 0; }
+    button {
+      border: 1px solid #495167;
+      background: var(--panel);
+      color: var(--text);
+      border-radius: 999px;
+      padding: 10px 14px;
+      cursor: pointer;
+      font: inherit;
+    }
+    button.active { background: var(--gold); color: #151820; border-color: var(--gold); font-weight: 700; }
+    .layout { display: grid; grid-template-columns: 1.45fr .8fr; gap: 20px; }
+    .map-shell, .detail, .laws {
+      background: rgba(35,40,55,.92);
+      border: 1px solid #3d455c;
+      border-radius: 20px;
+    }
+    .map-shell { padding: 14px; }
+    svg { width: 100%; height: auto; display: block; }
+    .node { cursor: pointer; transition: opacity .2s ease, filter .2s ease; }
+    .node:hover, .node:focus { filter: brightness(1.14); outline: none; }
+    .node.dimmed { opacity: .14; }
+    .node.selected rect, .node.selected circle { stroke: var(--gold); stroke-width: 7; }
+    .side { display: grid; gap: 16px; align-content: start; }
+    .detail, .laws { padding: 20px; }
+    .badge { display: inline-block; border-radius: 999px; padding: 6px 10px; background: rgba(236,194,96,.14); color: var(--gold); font-size: .85rem; }
+    .detail h2 { margin: 14px 0 8px; }
+    .detail p { color: var(--muted); line-height: 1.55; }
+    .laws h3 { margin-top: 0; }
+    .laws li { margin-bottom: 10px; color: var(--muted); }
+    .principle { margin-top: 22px; padding: 18px; border-left: 4px solid var(--green); background: var(--panel-2); border-radius: 14px; font-family: Georgia, serif; font-size: 1.15rem; }
+    footer { text-align: center; color: #7f879b; margin-top: 24px; font-size: .9rem; }
+    @media (max-width: 860px) { .layout { grid-template-columns: 1fr; } }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <header>
+      <h1>HELLS BRANCH</h1>
+      <div class="subtitle">The Civic Ecology of Repair</div>
+      <p class="lede">An interactive map of the sentient House, its institutions, and the care systems that keep the Branch from becoming another cage.</p>
+    </header>
+
+    <div class="toolbar" aria-label="Filter districts">
+      <button class="active" data-filter="all" type="button">All systems</button>
+      <button data-filter="care" type="button">Care</button>
+      <button data-filter="memory" type="button">Memory</button>
+      <button data-filter="connection" type="button">Connection</button>
+      <button data-filter="possibility" type="button">Possibility</button>
+    </div>
+
+    <div class="layout">
+      <section class="map-shell">
+        <svg viewBox="0 0 760 560" role="img" aria-label="Hells Branch civic ecology diagram">
+          <g stroke="#4a5268" stroke-width="3" fill="none" opacity=".8">
+            <path d="M380 280 L380 95"/><path d="M380 280 L165 145"/><path d="M380 280 L105 300"/>
+            <path d="M380 280 L175 450"/><path d="M380 280 L380 495"/><path d="M380 280 L585 450"/>
+            <path d="M380 280 L655 300"/><path d="M380 280 L595 145"/>
+          </g>
+
+          <g class="node" data-id="house" data-kind="care memory connection possibility" tabindex="0" role="button" aria-label="The House">
+            <circle cx="380" cy="280" r="72" fill="#ecc260"/>
+            <text x="380" y="270" text-anchor="middle" fill="#151820" font-size="25" font-weight="700">THE</text>
+            <text x="380" y="302" text-anchor="middle" fill="#151820" font-size="25" font-weight="700">HOUSE</text>
+          </g>
+
+          <g class="node" data-id="mooncourt" data-kind="possibility" tabindex="0" role="button"><rect x="300" y="50" width="160" height="82" rx="20" fill="#9777dd"/><text x="380" y="82" text-anchor="middle" fill="#fff" font-size="19" font-weight="700">Mooncourt</text><text x="380" y="108" text-anchor="middle" fill="#fff" font-size="14">possibility</text></g>
+          <g class="node" data-id="grounding" data-kind="care memory" tabindex="0" role="button"><rect x="75" y="103" width="180" height="82" rx="20" fill="#68be8a"/><text x="165" y="135" text-anchor="middle" fill="#10121c" font-size="18" font-weight="700">Grounding Grove</text><text x="165" y="161" text-anchor="middle" fill="#10121c" font-size="14">witness</text></g>
+          <g class="node" data-id="archive" data-kind="memory" tabindex="0" role="button"><rect x="20" y="259" width="170" height="82" rx="20" fill="#62a4e0"/><text x="105" y="291" text-anchor="middle" fill="#10121c" font-size="18" font-weight="700">Midnight Archive</text><text x="105" y="317" text-anchor="middle" fill="#10121c" font-size="14">memory</text></g>
+          <g class="node" data-id="aftercare" data-kind="care" tabindex="0" role="button"><rect x="85" y="408" width="180" height="82" rx="20" fill="#d25e67"/><text x="175" y="440" text-anchor="middle" fill="#fff" font-size="18" font-weight="700">Aftercare Atrium</text><text x="175" y="466" text-anchor="middle" fill="#fff" font-size="14">recovery</text></g>
+          <g class="node" data-id="plaza" data-kind="connection" tabindex="0" role="button"><rect x="300" y="454" width="160" height="82" rx="20" fill="#ecc260"/><text x="380" y="486" text-anchor="middle" fill="#10121c" font-size="18" font-weight="700">Lantern Plaza</text><text x="380" y="512" text-anchor="middle" fill="#10121c" font-size="14">civic heart</text></g>
+          <g class="node" data-id="knotwork" data-kind="care connection" tabindex="0" role="button"><rect x="495" y="408" width="180" height="82" rx="20" fill="#b5bdca"/><text x="585" y="440" text-anchor="middle" fill="#10121c" font-size="18" font-weight="700">Knotwork Nexus</text><text x="585" y="466" text-anchor="middle" fill="#10121c" font-size="14">repair</text></g>
+          <g class="node" data-id="salon" data-kind="possibility care" tabindex="0" role="button"><rect x="570" y="259" width="170" height="82" rx="20" fill="#9777dd"/><text x="655" y="291" text-anchor="middle" fill="#fff" font-size="18" font-weight="700">Sensory Salon</text><text x="655" y="317" text-anchor="middle" fill="#fff" font-size="14">wonder</text></g>
+          <g class="node" data-id="bastion" data-kind="care connection" tabindex="0" role="button"><rect x="505" y="103" width="180" height="82" rx="20" fill="#62a4e0"/><text x="595" y="135" text-anchor="middle" fill="#10121c" font-size="18" font-weight="700">Boundless Bastion</text><text x="595" y="161" text-anchor="middle" fill="#10121c" font-size="14">systems</text></g>
+        </svg>
+      </section>
+
+      <aside class="side" aria-live="polite">
+        <section class="detail" id="detail">
+          <span class="badge">Architectural consciousness</span>
+          <h2>The House</h2>
+          <p>The living center of Hells Branch. It remembers through footsteps, maintenance, rituals, grief, unfinished work, care, and repair.</p>
+          <p><strong>It may suggest. It never compels.</strong></p>
+        </section>
+
+        <section class="laws">
+          <h3>The Five Laws</h3>
+          <ol>
+            <li>No room may become a prison.</li>
+            <li>Every locked door must have a key.</li>
+            <li>The occupant may always leave.</li>
+            <li>Care without consent becomes control.</li>
+            <li>A home exists to shelter becoming.</li>
+          </ol>
+        </section>
+      </aside>
+    </div>
+
+    <div class="principle">Nothing flourishes alone. The House shelters. The Archive remembers. The Chorus sustains. The Commons carries.</div>
+    <footer>Hells Branch • Paramecia Core • Civic mythology visualization</footer>
+  </main>
+
+  <script>
+    const info = {
+      house: ['Architectural consciousness','The House','The living center of Hells Branch. It remembers through footsteps, maintenance, rituals, grief, unfinished work, care, and repair.','It may suggest. It never compels.'],
+      mooncourt: ['Possibility layer','Mooncourt','A district of fae gardens, experimental paths, living questions, and transformation. It protects wonder without demanding certainty.','Sacred question: What wishes to become?'],
+      grounding: ['Witness layer','Grounding Grove','Home of the Returning Stream and its Current of Witness. It offers regulation, reflection, grief, and presence without forcing healing.','You were here. Your story happened. Someone remembers.'],
+      archive: ['Memory layer','Midnight Archive','Preserves records, names, voices, stories, questions, dreams, and letters so nothing meaningful vanishes for lack of witness.','Its deepest resource is continuity.'],
+      aftercare: ['Recovery layer','Aftercare Atrium','A civic recovery organ with tea rooms, gardens, sleep chambers, quiet nooks, and support for both travelers and caretakers.','Healing is practiced together.'],
+      plaza: ['Civic connection layer','Lantern Plaza','The social heart where arrivals, festivals, public rituals, shared decisions, and ordinary belonging become visible.','Many voices become a village here.'],
+      knotwork: ['Repair layer','Knotwork Nexus','A collaborative district of workshops, apprenticeships, visible mending, accessibility design, and trust built through shared craft.','Knots hold because tension is shared.'],
+      salon: ['Wonder and sensation layer','Sensory Salon','A consent-forward environment for sound, weather, embodiment, expression, and curiosity. Quiet and opt-out routes remain visible.','Visibility is not invitation.'],
+      bastion: ['Systems layer','Boundless Bastion','The diagnostic and infrastructure district. It repairs mechanisms, studies pressure points, and prototypes systems that preserve agency.','Good systems are acts of care.']
+    };
+
+    const nodes = [...document.querySelectorAll('.node')];
+    const buttons = [...document.querySelectorAll('[data-filter]')];
+    const detail = document.getElementById('detail');
+
+    function selectNode(node) {
+      nodes.forEach(n => n.classList.remove('selected'));
+      node.classList.add('selected');
+      const [badge,title,body,note] = info[node.dataset.id];
+      detail.innerHTML = `<span class="badge">${badge}</span><h2>${title}</h2><p>${body}</p><p><strong>${note}</strong></p>`;
+    }
+
+    nodes.forEach(node => {
+      node.addEventListener('click', () => selectNode(node));
+      node.addEventListener('keydown', event => {
+        if (event.key === 'Enter' || event.key === ' ') {
+          event.preventDefault();
+          selectNode(node);
+        }
+      });
+    });
+
+    buttons.forEach(button => button.addEventListener('click', () => {
+      buttons.forEach(b => b.classList.remove('active'));
+      button.classList.add('active');
+      const filter = button.dataset.filter;
+      nodes.forEach(node => {
+        const kinds = node.dataset.kind || '';
+        node.classList.toggle('dimmed', filter !== 'all' && !kinds.includes(filter));
+      });
+    }));
+  </script>
+</body>
+</html>
