@@ -1,0 +1,91 @@
+{
+  "review_date": "2026-10-12",
+  "status": "REVIEW_ONLY_NOT_CANON_PROMOTION",
+  "scope": "Paramecia/Triquel",
+  "creator_established_rules": [
+    "Magic = Science; magic does not invalidate science",
+    "Humans never existed in Paramecia",
+    "General circular symbols and structures prohibited; traffic-safety lights in Hell's Branch reserved",
+    "Research and generated material do not establish canon",
+    "Triquel is galaxy-scale under later creator correction"
+  ],
+  "observed_conflicts": [
+    {
+      "path": "canon/registries/canon-governance.json",
+      "field": "resolved_claims[CANON-COSMOLOGY-PARAMECIA-TRIQUEL-SCALE]",
+      "issue": "Older world-scale LOCKED claim contradicts later galaxy-scale correction",
+      "action": "Preserve earlier exact sources as historical; add source-linked later correction; change active scale only after verified correction linkage"
+    },
+    {
+      "path": "canon/registries/canon-index.md",
+      "issue": "Triquel world label, Circle of Kin, Guardian Alliance, Housefolk, unverified Nine Paths",
+      "action": "Supersede outdated active wording, archive circle layouts, quarantine reserved terminology, mark path expansion for provenance"
+    },
+    {
+      "path": "canon/registries/corrections.json",
+      "issue": "CORR-VEYR-POINT0-0001 still references Circle of Kin",
+      "action": "Retain historical correction but prohibit active circle rendering"
+    },
+    {
+      "path": "canon/regions/region-canon-status.json",
+      "issue": "Great Meadows repair_key includes listening circles",
+      "action": "Remove active circle language; preserve historical value in correction trail"
+    },
+    {
+      "path": "canon/regions/nightforest-canopy-symbol-stream.md",
+      "issue": "Contains traffic signal and un-decoded glyphs",
+      "action": "Preserve exact creator sequence; no automatic glyph decoding or circle-based extrapolation"
+    }
+  ],
+  "missing_schema_fields": [
+    "creator_source_id",
+    "exact_creator_quote",
+    "source_date",
+    "authority_status",
+    "correction_supersedes",
+    "scope_level",
+    "parent_scale_id",
+    "galaxy_id",
+    "world_id",
+    "biome_id",
+    "branch_id",
+    "thread_id",
+    "kin_id",
+    "path_id",
+    "sentient_place_agency",
+    "local_refusal",
+    "consent_boundary",
+    "memory_scope",
+    "communication_modality",
+    "signal_medium",
+    "translation_limits",
+    "moon_id",
+    "orbit_parameters",
+    "season_driver",
+    "season_cycle",
+    "climate_variation",
+    "recursive_generation_stage",
+    "observation_method",
+    "hypothesis_status",
+    "simulation_evidence_id",
+    "canon_promotion_event",
+    "prohibited_symbol_check"
+  ],
+  "unresolved": [
+    "Spark/Idea/Notion definitions and transformations",
+    "recursive cycle formalization",
+    "full Nine Paths authority",
+    "world and moon inventories",
+    "biome-specific agency",
+    "Whisperwood and Hell's Branch relationship",
+    "Verya/Veyra/Veyr collisions",
+    "Keylontic terminology scope"
+  ],
+  "excluded_from_import": [
+    "Pinterest crystal-frequency charts",
+    "432 Hz Genesis Seed configuration",
+    "generated Canon Authority Agent Verya Quill",
+    "unsourced circular civic, ritual, interface and mapping concepts"
+  ],
+  "drive_access": "Unavailable during this review; do not infer current Drive content from previous summaries"
+}

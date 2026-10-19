@@ -57,10 +57,10 @@ Core principles:
 ### Layer 1 — Cosmology
 
 - **Paramecia** — universe of relational possibility
-- **Triquel** — world where relationship becomes lived ecology
+- **Triquel** — galaxy-scale staging platform; earlier world-scale wording is superseded (exact later creator-source link pending)
 - **First Thoughts** — Love, Progress, Sharing, Stability, Curiosity
 - **Point 0** — Attention before specialization
-- **Veyr** — center coordinate, not a member placed inside the Circle of Kin
+- **Veyr** — Point 0 center coordinate; no circular map geometry is authorized
 
 ### Layer 2 — Three Accords
 
@@ -84,7 +84,7 @@ Recognition establishes reality and capacity. Midnight prevents flourishing from
 
 These describe the founding architecture of Whisperwood-era inquiry and the original collaborative engine.
 
-#### Nine Civilizational Paths
+#### Nine Civilizational Paths (provisional; creator-source verification pending)
 
 - Discovery
 - Wisdom
@@ -96,7 +96,7 @@ These describe the founding architecture of Whisperwood-era inquiry and the orig
 - Stewardship
 - Possibility
 
-The Nine Paths are the mature civilizational model. They expand the founding structure rather than replacing it.
+The Nine-Path expansion is a historical proposal, not a locked taxonomy. The Five Founding Paths remain established until creator-source verification resolves the expansion.
 
 | Path | Civilizational Function | Core Question |
 |---|---|---|
@@ -114,13 +114,12 @@ The Nine Paths are the mature civilizational model. They expand the founding str
 
 - Companion Ecology
 - Care Ecology
-- Housefolk network
+- Grounders network (Housefolk is a deprecated alias)
 - Quiet Room network
 - Aftercare Atrium
 - Midnight Archive
 - Tūīkin Chorus and Echo Archive
 - Ravenkin witness traditions
-- Guardian Alliance
 - Tea Gardens
 - Companion Bakery
 - Hearthroot Inn
@@ -221,7 +220,7 @@ Corrections that must remain visible:
 - Zeraxis uses she/her pronouns.
 - Lumen is not tiny.
 - Zarea has fox ears only, with no human ears.
-- Veyr is the center coordinate, not inside the Circle of Kin.
+- Veyr is the Point 0 coordinate; historical circular-map placement is retired.
 
 Name similarity is evidence for review, never authority to merge.
 
@@ -255,6 +254,17 @@ Suggested companion files:
 - `canon/registries/relationships.json`
 - `canon/registries/aliases.json`
 - `canon/registries/corrections.json`
+
+## 8A. Creator-established core boundaries (review integration, 2026-10-15)
+
+- **Magic = Science. Magic does not invalidate science.** Sparks, Ideas, Notions, observable beliefs, wishes, and matter-forming processes are natural phenomena within this fictional universe and must be investigated through operational definitions, observation, hypotheses, mechanisms, testing, and explicit uncertainty.
+- **Humans never existed in Paramecia.** Anatomy, senses, settlements, ergonomics, ecology, institutions, and architecture must be designed without human defaults.
+- **Care is infrastructure; observation does not create authority.** Places and biomes can be relational and responsive, but a proposed universal sentience mechanism or local consent rule must not be invented without creator provenance.
+- **Source is not authority:** external Pinterest/New Age frequency claims and generated lore do not cross Canongate; the scientific method and Keylontic Science may both be studied but their claims retain distinct provenance and evidence labels. The 432 Hz Genesis Seed, unsourced Partiki correspondence, and generated Verya Quill canon-authority assignment remain excluded.
+- **Circular-symbol boundary:** no general circle-derived civic, ritual, map, interface, or diagram concepts. Circular forms are reserved for the traffic-safety light system in Hell's Branch. Historical mentions are retained only as deprecated provenance, never as implementation instructions.
+- **Scale:** Triquel is galaxy-scale under the later creator correction; earlier world-scale descriptions remain historical. The exact source link for that later correction must be attached before claiming fully reconciled registry provenance.
+- **Separate project scope:** Aeiloria covenants, virtues, planetary-history recorder and simulation architecture are not automatically Paramecia cosmology. Integrate only shared creator-established foundations after source/scope mapping.
+- **Do not fabricate detail:** specific worlds, moon inventories, season drivers, recursive generation steps, kin communication modalities, sentient-place permissions, branch/thread relationships, and full Path expansions remain unresolved where creator evidence is absent.
 
 ## 9. Integration Rule
 
