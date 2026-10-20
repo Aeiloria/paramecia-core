@@ -1,0 +1,19 @@
+# GitLab mirror pipeline for the current Python/JSON repository.
+# This validates existing sources; it never writes canon or promotes records.
+image: python:3.12-slim
+
+stages:
+  - validate
+
+workflow:
+  rules:
+    - if: '$CI_PIPELINE_SOURCE == "merge_request_event"'
+    - if: '$CI_COMMIT_BRANCH && $CI_OPEN_MERGE_REQUESTS'
+      when: never
+    - if: '$CI_COMMIT_BRANCH'
+
+source_validation:
+  stage: validate
+  script:
+    - python -m compileall -q integrations/felix-null/agent skills/elemental-sparks
+    - python -m unittest discover -s tests -p 'test_*.py' -v
