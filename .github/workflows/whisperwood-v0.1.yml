@@ -1,0 +1,39 @@
+name: Whisperwood location pipeline v0.1
+
+on:
+  pull_request:
+    paths:
+      - "canon/whisperwood/locations/**"
+      - "schemas/**"
+      - "validators/**"
+      - "renderers/**"
+      - "tests/**"
+      - "requirements-dev.txt"
+      - ".github/workflows/whisperwood-v0.1.yml"
+  push:
+    branches: [main]
+    paths:
+      - "canon/whisperwood/locations/**"
+      - "schemas/**"
+      - "validators/**"
+      - "renderers/**"
+      - "tests/**"
+      - "requirements-dev.txt"
+      - ".github/workflows/whisperwood-v0.1.yml"
+
+jobs:
+  validate-and-render:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python -m pip install -r requirements-dev.txt
+      - run: python validators/validate_locations.py
+      - run: python -m unittest discover -s tests -v
+      - name: Verify clean rebuild is reproducible
+        run: |
+          python renderers/render_location_markdown.py --output-dir /tmp/ww-build-a
+          python renderers/render_location_markdown.py --output-dir /tmp/ww-build-b
+          diff -ru /tmp/ww-build-a /tmp/ww-build-b

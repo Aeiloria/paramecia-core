@@ -10,6 +10,7 @@ Central repository for the Paramecia, Triquel, and Hells Branch lore databases, 
 - [Project Core Integration Map](docs/project-core-integration-map.md) — operational map for cosmology, canon governance, care ecology, characters, regions, scenarios, recovery systems, visual canon, and production order
 - [Core Chats Integration — Living Canon Expansion](docs/core-chats-integration-living-canon-expansion.md) — capture-to-canon bridge connecting live creation, Notion synthesis, GitHub governance, runtime testing, and production routing
 - [Core Chats Utilization Pass v2.0](docs/core-chats-utilization-pass-v2.md) — converts named canon into registries, relationship runtime, living-place systems, visual provenance, and production routes
+- [Whisperwood Location Canon Pipeline v0.1](canon/whisperwood/locations/) — candidate records, schema, validators, tests, and generated Markdown boundary
 - [`canon/`](canon/) — authoritative and reviewable world material
 - [`docs/recovery/`](docs/recovery/) — recovery architecture and operational references
 - [`skills/project-0-core-pack-v1/`](skills/project-0-core-pack-v1/) — executable behavioral skills and workflows
@@ -80,3 +81,23 @@ Next suggested companions:
 
 - `canon/registries/nodes.json`
 - `canon/registries/relationships.json`
+
+## Whisperwood Location Canon Pipeline v0.1
+
+The six location records are candidates containing only source-backed names and provenance. Symbols, tags, purposes, and relationship hooks remain pending source recovery. The separate RPG map is not imported as canon.
+
+- `canon/whisperwood/locations/*.json` is the only editing source for this pipeline.
+- `schemas/` defines metadata and location record shape, including the approval requirement for `approved` lifecycle state.
+- `validators/validate_locations.py` reports schema, duplicate-ID, and broken-reference errors without editing source files.
+- `renderers/render_location_markdown.py` writes rendered views under `build/whisperwood/locations/`, which is ignored and rebuildable.
+- `tests/` and `.github/workflows/whisperwood-v0.1.yml` verify the six-name seed set, provenance, hard failures, approval gating, and deterministic rendering.
+
+Run with Python 3.12:
+
+```sh
+python -m pip install -r requirements-dev.txt
+python validators/validate_locations.py
+python -m unittest discover -s tests -v
+python renderers/render_location_markdown.py
+```
+
