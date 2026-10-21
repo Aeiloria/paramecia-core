@@ -1,0 +1,35 @@
+name: Aeiloria agent handover
+on:
+  schedule:
+    # Cover America/Chicago daylight-saving transitions. Python checks local hour.
+    - cron: '0 0,1,13,14,20,21 * * *'
+  workflow_dispatch:
+    inputs:
+      session:
+        description: "Review session"
+        type: choice
+        required: true
+        options: [morning, evening, weekly]
+permissions:
+  contents: read
+  issues: write
+  pull-requests: read
+concurrency:
+  group: agent-handover
+  cancel-in-progress: false
+jobs:
+  exchange:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Run evidence-based handover
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_REPOSITORY: ${{ github.repository }}
+          REQUESTED_SESSION: ${{ inputs.session }}
+          EVENT_NAME: ${{ github.event_name }}
+        run: python orchestration/handover.py
