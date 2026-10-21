@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://aeiloria.github.io/paramecia-core/schemas/location.schema.json",
+  "title": "Whisperwood Location Record",
+  "type": "object",
+  "required": ["record_id", "record_type", "authority_tier", "lifecycle_state", "artifact_role", "review_state", "provenance", "name", "references", "source_completeness", "pending_fields"],
+  "properties": {
+    "record_id": {"type": "string", "pattern": "^WW-LOC-[0-9]{4}$"},
+    "record_type": {"const": "location"},
+    "authority_tier": {"enum": ["A0", "A1", "A2", "A3", "A4"]},
+    "lifecycle_state": {"enum": ["draft", "candidate", "approved", "superseded", "retired", "quarantined"]},
+    "artifact_role": {"enum": ["source", "registry", "compiler", "generated_output", "reference", "index", "test_fixture"]},
+    "review_state": {"enum": ["needs_source_recovery", "needs_adjudication", "reviewed"]},
+    "provenance": {"$ref": "canon-metadata.schema.json#/properties/provenance"},
+    "promotion_approval": {"$ref": "canon-metadata.schema.json#/properties/promotion_approval"},
+    "name": {"type": "string", "minLength": 1},
+    "references": {"type": "array", "uniqueItems": true, "items": {"type": "string", "pattern": "^WW-LOC-[0-9]{4}$"}},
+    "source_completeness": {"enum": ["name_only", "details_sourced", "reviewed"]},
+    "pending_fields": {"type": "array", "uniqueItems": true, "items": {"enum": ["symbol", "tags", "purpose", "relationship_hooks"]}}
+  },
+  "allOf": [{"if": {"properties": {"lifecycle_state": {"const": "approved"}}, "required": ["lifecycle_state"]}, "then": {"required": ["promotion_approval"]}}],
+  "additionalProperties": false
+}

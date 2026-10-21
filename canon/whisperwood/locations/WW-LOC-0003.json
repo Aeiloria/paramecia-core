@@ -1,0 +1,7 @@
+{
+  "record_id": "WW-LOC-0003", "record_type": "location", "authority_tier": "A1",
+  "lifecycle_state": "candidate", "artifact_role": "source", "review_state": "needs_source_recovery",
+  "provenance": [{"source_url": "https://app.notion.com/p/3a3e8e17c7ef8132aa24dd20ab172cc4", "source_title": "Paramecia Canon Engine — Architecture Review & First Implementation", "source_section": "First reference implementation: Whisperwood locations", "source_excerpt": "Riverforge"}],
+  "name": "Riverforge", "references": [], "source_completeness": "name_only",
+  "pending_fields": ["symbol", "tags", "purpose", "relationship_hooks"]
+}
