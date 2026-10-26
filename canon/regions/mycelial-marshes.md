@@ -148,7 +148,7 @@ Communities track care burdens by function and duration, not by moral worth. Led
 #### Transfer locks
 Physical and symbolic locks interrupt unwanted exchange. They may isolate water flow, close a message channel, seal a memory vessel, suspend ritual access, or halt network participation.
 
-#### Containment circles
+#### Time-limited containment
 Containment is practical, time-limited, and reviewed. It must include care, information, and a route back into ordinary community life.
 
 #### The Untaken Burden
@@ -167,7 +167,7 @@ A formal practice allows a person to decline a burden publicly without being fra
 ## 6. Governance and Stewardship
 
 ### Marsh councils
-Councils use small circles connected by delegates rather than one enormous assembly. Participants may contribute in person, by sealed note, through a witness, or after a delay. Health and contamination information is shared only at the level necessary for collective safety.
+Councils use small delegate-linked groups rather than one enormous assembly. Participants may contribute in person, by sealed note, through a witness, or after a delay. Health and contamination information is shared only at the level necessary for collective safety.
 
 ### Stewards
 - **Water stewards:** test and protect cleanwater routes.
@@ -185,7 +185,7 @@ Authority remains narrow, reviewable, and revocable. Medical knowledge, network 
 ### Map language
 - white ripple: cleanwater route
 - green-black braid: active mycelial exchange zone
-- open circle on a raised line: dry refuge
+- [noncircular symbol pending]: dry refuge
 - sealed vessel: protected memory or sample store
 - split reed: no-transfer boundary
 - three linked dots with one gap: distributed support with preserved autonomy
