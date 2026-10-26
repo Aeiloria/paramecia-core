@@ -188,8 +188,8 @@ Authority is narrow, visible, reviewable, and attached to a specific chamber or 
 ## 7. Symbols, Rituals, and Seasonal Life
 
 ### Map language
-- concentric broken rings: strong echo with uncertain return
-- solid dark circle: silent chamber
+- [noncircular symbol pending]: strong echo with uncertain return
+- [noncircular symbol pending]: silent chamber
 - three descending dots: route continues downward
 - braided line: tactile guide route
 - webbed triangle: suspended Spiderkin crossing
