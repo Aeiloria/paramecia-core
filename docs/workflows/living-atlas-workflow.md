@@ -129,7 +129,7 @@ A paused item is not a failed item. Care is infrastructure.
 
 ### Now
 - Triage ecological-region canon
-- Resolve Point 0 and Circle of Kin representation
+- Resolve Point 0 and noncircular kin-relations representation
 
 ### Next
 - Build the Three Accords reusable diagram set
