@@ -58,7 +58,7 @@ Core principles:
 
 - **Paramecia** — universe of relational possibility
 - **Triquel** — galaxy-scale staging platform; earlier world-scale wording is superseded (exact later creator-source link pending)
-- **First Thoughts** — Love, Progress, Sharing, Stability, Curiosity
+- **First Thoughts** — Love, Progress, Sharing, Stability, Curiosity (historical proposal; creator-source verification pending)
 - **Point 0** — Attention before specialization
 - **Veyr** — Point 0 center coordinate; no circular map geometry is authorized
 
@@ -260,11 +260,13 @@ Suggested companion files:
 - **Magic = Science. Magic does not invalidate science.** Sparks, Ideas, Notions, observable beliefs, wishes, and matter-forming processes are natural phenomena within this fictional universe and must be investigated through operational definitions, observation, hypotheses, mechanisms, testing, and explicit uncertainty.
 - **Humans never existed in Paramecia.** Anatomy, senses, settlements, ergonomics, ecology, institutions, and architecture must be designed without human defaults.
 - **Care is infrastructure; observation does not create authority.** Places and biomes can be relational and responsive, but a proposed universal sentience mechanism or local consent rule must not be invented without creator provenance.
+- **Worlding is relational:** relation, memory, response, preference, pressure, adaptation, inheritance, metabolism, refusal, and time-depth are established design considerations for sentient places. Their mechanisms and scope remain open questions, not universal automatic powers.
+- **Fifth Path threshold is one-way:** Paramecian characters may look outward toward Earth; Earth cannot enter Paramecia. Observation grants no authority.
 - **Source is not authority:** external Pinterest/New Age frequency claims and generated lore do not cross Canongate; the scientific method and Keylontic Science may both be studied but their claims retain distinct provenance and evidence labels. The 432 Hz Genesis Seed, unsourced Partiki correspondence, and generated Verya Quill canon-authority assignment remain excluded.
 - **Circular-symbol boundary:** no general circle-derived civic, ritual, map, interface, or diagram concepts. Circular forms are reserved for the traffic-safety light system in Hell's Branch. Historical mentions are retained only as deprecated provenance, never as implementation instructions.
 - **Scale:** Triquel is galaxy-scale under the later creator correction; earlier world-scale descriptions remain historical. The exact source link for that later correction must be attached before claiming fully reconciled registry provenance.
 - **Separate project scope:** Aeiloria covenants, virtues, planetary-history recorder and simulation architecture are not automatically Paramecia cosmology. Integrate only shared creator-established foundations after source/scope mapping.
-- **Do not fabricate detail:** specific worlds, moon inventories, season drivers, recursive generation steps, kin communication modalities, sentient-place permissions, branch/thread relationships, and full Path expansions remain unresolved where creator evidence is absent.
+- **Do not fabricate detail:** specific worlds, moon inventories, season drivers, recursive generation steps, kin communication modalities, sentient-place permissions, branch/thread relationships, and full Path expansions remain unresolved where creator evidence is absent. No mandatory linear Spark → Idea → Notion → Matter sequence is established; Spark origins, recurrence timing, and physical mass-forming mechanisms remain open.
 
 ## 9. Integration Rule
 
