@@ -57,7 +57,7 @@ The Paths are modes of relation rather than rigid factions.
 
 ### Point 0
 
-**Veyr is the center coordinate, not inside the Circle of Kin.**
+**Veyr is Point 0, a reference coordinate; no civic geometry is implied.**
 
 Point 0 is Attention before specialization. It witnesses without claiming ownership.
 
