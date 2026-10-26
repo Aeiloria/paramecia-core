@@ -6,7 +6,7 @@
 
 ## Core Identity
 
-Ravenkin are the **Circle of Significance**. Their work is to witness, preserve, interpret, and carry what must not be lost.
+Ravenkin carry significance through witness and memory. Their work is to witness, preserve, interpret, and carry what must not be lost.
 
 Their defining ethic is:
 
@@ -36,7 +36,7 @@ Used by Ravenkin who carry messages, fragments, field records, lost voices, rout
 
 Lantern light may be visible within clothing or body architecture, consistent with Ravenkin visual canon.
 
-## Circles
+## Civic vocations
 
 - **Memory:** records lives, customs, testimony, and ordinary history
 - **Stars:** studies vanished worlds, impossible skies, and cosmic traces
@@ -44,7 +44,7 @@ Lantern light may be visible within clothing or body architecture, consistent wi
 - **Wings:** carries messages across distance, realms, and discontinuities
 - **Roads:** listens to ruins, abandoned routes, and places seeking restoration
 
-Circles are civic vocations, not rigid castes.
+These are civic vocations, not rigid castes.
 
 ## Cultural Practices
 
