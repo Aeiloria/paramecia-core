@@ -83,11 +83,11 @@ These are pre-personal formative principles, not merely gods or factions.
 
 ### Point 0
 
-**Veyr is the center coordinate, not inside the circle.**
+**Veyr is Point 0, a reference coordinate; no civic geometry is implied.**
 
 Point 0 represents Attention before specialization. It is non-hierarchical and does not convert observation into command.
 
-### Circle of Kin
+### Kin relations (historical grouping, geometry retired)
 
 - Foxkin: Possibility
 - Deerkin: Pattern

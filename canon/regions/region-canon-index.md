@@ -27,7 +27,7 @@
 
 **Primary risk:** Overexposure can punish privacy; consensus can flatten quieter or minority needs.
 
-**Repair key:** Listening circles paired with shaded retreat zones and protected nonparticipation.
+**Repair key:** Protected listening opportunities paired with shaded retreat zones and protected nonparticipation.
 
 **Accord emphasis:**
 - Harmony: What public forms of belonging are trying to flourish?

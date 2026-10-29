@@ -56,7 +56,7 @@ Homes are grown, woven, suspended, nested, or gently fitted into existing hollow
 Meals favor low light, layered seating, small shared dishes, night fruits, mushrooms, nuts, fermented drinks, and foods that can be passed quietly. Communal meals include clear opt-out paths and separate quiet tables. No one is required to explain why they sit apart.
 
 ### Art and communication
-The Canopy values silhouette, chimes, feather and leaf patterning, shadow theatre, whispered story circles, scent markers, branch percussion, and moving constellations of hooded lanterns. Communication may be verbal, gestural, luminous, tactile, or spatial.
+The Canopy values silhouette, chimes, feather and leaf patterning, shadow theatre, whispered storytelling, scent markers, branch percussion, and moving constellations of hooded lanterns. Communication may be verbal, gestural, luminous, tactile, or spatial.
 
 ## 4. Relational Function
 
@@ -133,7 +133,7 @@ Privacy-respecting check-ins can be arranged in advance. A person chooses the si
 ## 6. Governance and Stewardship
 
 ### Night councils
-Night councils are held in layered rings with multiple participation modes: central speaking, edge listening, written submission, signal voting, and delayed response. Leaving early does not void participation.
+Night councils offer multiple participation modes: speaking, listening, written submission, signal voting, and delayed response. Leaving early does not void participation.
 
 ### Stewards
 - **Threshold stewards:** manage guest access and clarify boundaries.
@@ -153,7 +153,7 @@ Authority is narrow, visible, reviewable, and tied to a specific function. Exper
 - crescent nest: sanctuary or rest station
 - silver thread: accessible guided path
 - dark green thread: resident route, not public by default
-- broken ring: route closed or consent withdrawn
+- [noncircular symbol pending]: route closed or consent withdrawn
 - three small lights: witness available
 
 ### Seasonal events

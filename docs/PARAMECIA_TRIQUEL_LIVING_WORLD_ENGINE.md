@@ -90,13 +90,13 @@ Together, the Accords create a three-part ethical frame:
 2. Honor what is present.
 3. Support what may flourish.
 
-## 5. Point 0 and the Circle of Kin
+## 5. Point 0 and kin relations
 
 Point 0 represents attention before specialization.
 
 It is not ownership, command, or superiority. It is the central coordinate from which relation becomes visible.
 
-The Circle of Kin expresses differentiated attention:
+Historical kin-role mappings are listed for source recovery, not as a circular structure:
 
 - **Foxkin** — possibility
 - **Deerkin** — pattern
@@ -106,7 +106,7 @@ The Circle of Kin expresses differentiated attention:
 - **Ratfolk** — utility
 - **Hedgekin** — regulation
 
-The center is not inside the circle as a ruler. It is the shared coordinate around which the circle becomes legible.
+Point 0 is a reference coordinate, not a ruling position. No civic or map geometry is implied.
 
 ## 6. Living architecture
 
@@ -333,7 +333,7 @@ Recommended 18-slide narrative:
 5. Paramecia and Triquel
 6. Five Paths
 7. Three Accords
-8. Point 0 and Circle of Kin
+8. Point 0 and kin relations (historical mapping pending verification)
 9. Living architecture
 
 ### Phase III — People and engine

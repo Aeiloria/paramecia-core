@@ -21,7 +21,7 @@
       "canon_status": "locked-core",
       "gift": "public belonging, visibility, abundance, shared feasts",
       "risk": "overexposure and consensus flattening quieter needs",
-      "repair_key": "listening circles and shaded retreat zones",
+      "repair_key": "shaded retreat zones and protected nonparticipation",
       "expansion_status": "provisional"
     },
     {
@@ -81,6 +81,7 @@
     "Accord of Regeneration",
     "Beaverkin Way treated as merely another territorial biome",
     "one-to-one kin species ownership of regions",
-    "connected terrain interpreted as automatically public or available"
+    "connected terrain interpreted as automatically public or available",
+    "Great Meadows listening circles (deprecated circular civic repair form; historical wording retained in Git history)"
   ]
 }

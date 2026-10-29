@@ -18,7 +18,13 @@
       "superseded_value": "incorrect or inconsistent pronouns",
       "corrected_value": "she/her",
       "status": "canon-locked",
-      "scope": ["all prose", "character cards", "JanitorAI exports", "metadata", "scenario modules"]
+      "scope": [
+        "all prose",
+        "character cards",
+        "JanitorAI exports",
+        "metadata",
+        "scenario modules"
+      ]
     },
     {
       "correction_id": "CORR-ZAREA-EARS-0001",
@@ -27,7 +33,11 @@
       "superseded_value": "fox ears plus visible human ears",
       "corrected_value": "fox ears only; no human ears",
       "status": "canon-locked",
-      "scope": ["visual canon", "image prompts", "character descriptions"]
+      "scope": [
+        "visual canon",
+        "image prompts",
+        "character descriptions"
+      ]
     },
     {
       "correction_id": "CORR-ZAREA-EYES-0001",
@@ -36,16 +46,29 @@
       "superseded_value": "non-green or inconsistent variants",
       "corrected_value": "green",
       "status": "canon-locked",
-      "scope": ["visual canon", "image prompts", "character sheets"]
+      "scope": [
+        "visual canon",
+        "image prompts",
+        "character sheets"
+      ]
     },
     {
       "correction_id": "CORR-VEYR-POINT0-0001",
       "entity_id": "COSMO-POINT0-0001",
-      "field": "circle_of_kin.position",
+      "field": "point0.reference_coordinate",
       "superseded_value": "Veyr placed inside the Circle of Kin",
-      "corrected_value": "Veyr is the center coordinate, not inside the circle",
+      "corrected_value": "Veyr is Point 0 (0°, 0°), a reference coordinate; no circular civic or map geometry is authorized.",
       "status": "canon-locked",
-      "scope": ["cosmology", "diagrams", "maps", "presentations", "world bible"]
+      "scope": [
+        "cosmology",
+        "diagrams",
+        "maps",
+        "presentations",
+        "world bible"
+      ],
+      "historical_field": "circle_of_kin.position",
+      "historical_corrected_value": "Veyr is the center coordinate, not inside the circle",
+      "historical_geometry_status": "deprecated; historical correction wording retained for provenance only"
     },
     {
       "correction_id": "CORR-NIX-NAME-0001",
@@ -54,7 +77,9 @@
       "superseded_value": "Nyx",
       "corrected_value": "Nix",
       "status": "canon-locked",
-      "scope": ["all new artifacts"],
+      "scope": [
+        "all new artifacts"
+      ],
       "preserve_as_deprecated_alias": true
     },
     {
@@ -64,7 +89,11 @@
       "superseded_value": "tiny",
       "corrected_value": "not tiny",
       "status": "canon-locked",
-      "scope": ["prose", "visual canon", "image prompts"]
+      "scope": [
+        "prose",
+        "visual canon",
+        "image prompts"
+      ]
     },
     {
       "correction_id": "CORR-VEYRA-SEPARATION-0001",
@@ -73,7 +102,12 @@
       "superseded_value": "merged or confused with Mira / Seven canon",
       "corrected_value": "Veyra remains distinct from Mira Sweepwind and The Seven",
       "status": "canon-locked",
-      "scope": ["registries", "folders", "exports", "visual archives"]
+      "scope": [
+        "registries",
+        "folders",
+        "exports",
+        "visual archives"
+      ]
     },
     {
       "correction_id": "CORR-RED-PROTOCOL-0001",
@@ -82,7 +116,12 @@
       "superseded_value": "used for correction, intensity, or playful escalation",
       "corrected_value": "Red is reserved for STOP",
       "status": "canon-locked",
-      "scope": ["consent protocols", "scenario design", "assistant workflows", "character cards"]
+      "scope": [
+        "consent protocols",
+        "scenario design",
+        "assistant workflows",
+        "character cards"
+      ]
     },
     {
       "correction_id": "CORR-SIR-HONKWALD-0001",
@@ -91,7 +130,11 @@
       "superseded_value": "multiple protocol ducks",
       "corrected_value": "single Red protocol duck; no second duck",
       "status": "canon-locked",
-      "scope": ["character registry", "scenario modules", "visual canon"]
+      "scope": [
+        "character registry",
+        "scenario modules",
+        "visual canon"
+      ]
     }
   ]
 }

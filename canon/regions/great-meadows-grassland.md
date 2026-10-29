@@ -36,13 +36,13 @@ Exposure, overstimulation, storm vulnerability, trampling, overgrazing, and the 
 ## 3. Kin Culture
 
 ### Cultural function
-The Meadows are Triquel’s clearest public commons. They host arrival feasts, open-air councils, migration exchanges, games, dances, teaching circles, and temporary encampments.
+The Meadows are Triquel’s clearest public commons. They host arrival feasts, open-air councils, migration exchanges, games, dances, open-air teaching sessions, and temporary encampments.
 
 ### Representative kin
 Rabbitfolk, Groundhogkin, Hedgekin, migrating grazers, pollinator visitors, Foxkin pathfinders, and traveling groups from other regions. Kin are cultural participants, not biome mascots.
 
 ### Housing
-Most structures are temporary, movable, or low-profile: burrow halls, windbreak tents, wheeled kitchens, shade pavilions, foldable council rings, and grass-roofed refuge mounds.
+Most structures are temporary, movable, or low-profile: burrow halls, windbreak tents, wheeled kitchens, shade pavilions, foldable council shelters, and grass-roofed refuge mounds.
 
 ### Work
 - pasture and seed stewardship
@@ -57,15 +57,15 @@ Most structures are temporary, movable, or low-profile: burrow halls, windbreak 
 Meals favor shared platters, grazing tables, portable ovens, meadow herbs, seed breads, roots, dairy analogues where culturally appropriate, and foods brought by visiting regions. A feast is an invitation, never a test of belonging.
 
 ### Grief and memory
-The Meadows remember through absence-shaped circles, uncut grass patches, wind ribbons, and names spoken once into the horizon rather than repeated until they become possession.
+The Meadows remember through deliberately unoccupied patches, uncut grass patches, wind ribbons, and names spoken once into the horizon rather than repeated until they become possession.
 
 ### Tools and symbols
 - wind ribbons
 - portable shade frames
 - listening staffs
 - seed satchels
-- circular ground cloths with deliberate openings
-- the **Open Ring**, a circle that is never fully closed
+- ground cloths with visible exits
+- unoccupied space at gatherings
 
 ## 4. Consent Field
 
@@ -73,7 +73,7 @@ The Meadows remember through absence-shaped circles, uncut grass patches, wind r
 Invitation must include the location of shade, water, quiet edges, and exits. Being visible does not mean being available.
 
 ### Refusal forms
-A guest may decline food, speech, touch, dancing, testimony, introductions, or entry into the central ring without losing welcome.
+A guest may decline food, speech, touch, dancing, testimony, introductions, or entry into the gathering space without losing welcome.
 
 ### Visibility levels
 - **Public:** weather, routes, feast schedules, broad ecological knowledge
@@ -103,7 +103,7 @@ A guest may decline food, speech, touch, dancing, testimony, introductions, or e
 - temporary settlements becoming territorial claims
 
 ### Repair practices
-- **Listening Circles:** councils where the quietest or least represented position is heard before closure
+- **Listening practice:** councils where the quietest or least represented position is heard before closure
 - **Shaded Retreats:** protected edge spaces that remain socially connected but free from performance
 - **The Unjoined Place:** an intentionally empty seat or open patch proving that absence can remain included
 - **Minority Wind:** a formal pause triggered when one participant believes the group is moving too quickly
@@ -123,12 +123,12 @@ The Meadows ask:
 ## 6. Atlas and Story Use
 
 ### Map symbols
-- open ring: public gathering site
+- [noncircular symbol pending]: public gathering site
 - three grass strokes: listening field
 - shaded crescent: retreat grove
 - broken path line: seasonal or movable route
 - wind ribbon: weather or migration signal
-- empty circle: protected absence or no-entry refuge
+- [noncircular symbol pending]: protected absence or no-entry refuge
 
 ### Seasonal events
 - **First Wind:** opening of major migration routes
@@ -139,7 +139,7 @@ The Meadows ask:
 ### Rituals
 - **Grass-Listening:** participants hear the land and each other before making a public decision
 - **Arrival Without Performance:** newcomers may enter, eat, rest, or observe without introducing themselves
-- **The Open Ring:** councils preserve a visible exit and an unoccupied place
+- **Council exits:** councils preserve a visible exit and an unoccupied place
 - **Name to the Horizon:** grief rite that releases memory without demanding repetition
 
 ### Scene engine

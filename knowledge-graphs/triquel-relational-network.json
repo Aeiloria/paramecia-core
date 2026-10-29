@@ -1,56 +1,288 @@
 {
   "title": "Triquel Relational Knowledge Graph",
-  "description": "Flat, many-to-many source graph for the Triquel Living Atlas. Designed for Ace Knowledge Graph or other network visualizers. Canon-sensitive: exact Accord wording is preserved, and Veyr is represented as Point 0 rather than as a member inside the Circle of Kin.",
+  "description": "Flat, many-to-many source graph for the Triquel Living Atlas. Derived visualization only; Point 0 is a reference coordinate, not a circular civic structure. Creator-established source records govern canon.",
   "status": "provisional",
   "core_truth": "Nothing flourishes alone.",
   "nodes": [
-    {"id":"harmony","label":"Harmony Accord","type":"concept","description":"Asks: What wants to flourish? Guides growth, possibility, and conditions for thriving."},
-    {"id":"midnight","label":"Midnight Accord","type":"concept","description":"Asks: What must be honored? Protects memory, grief, limits, shadow, and what cannot be bypassed."},
-    {"id":"recognition","label":"Recognition Accord","type":"concept","description":"Asks: What is actually here? Grounds all creation in accurate attention before interpretation or authority."},
-    {"id":"point-zero","label":"Point 0","type":"concept","description":"The coordinate of Attention before specialization. Point 0 anchors relation without enclosing or owning it."},
-    {"id":"veyr","label":"Veyr","type":"concept","description":"Threshold witness associated with Point 0. Veyr is the center coordinate, not a member positioned inside the Circle of Kin."},
-    {"id":"circle-of-kin","label":"Circle of Kin","type":"concept","description":"A relational constellation of kin expressions around Point 0, including Foxkin, Deerkin, Ravenkin, Nestkin, Rabbitfolk, Ratfolk, and Hedgekin."},
-    {"id":"great-meadows","label":"Great Meadows Grassland","type":"project","description":"Open grassland region shaped by visibility, movement, seasonal abundance, and negotiated shared passage."},
-    {"id":"flowering-orchard","label":"Flowering Orchard","type":"project","description":"Cultivated ecological region where pollination, harvest, memory, and stewardship are held in right relation."},
-    {"id":"nightforest-canopy","label":"Nightforest Canopy","type":"project","description":"Layered nocturnal forest region organized around listening, shelter, height, signal, and concealed pathways."},
-    {"id":"mycelial-marshes","label":"Mycelial Marshes","type":"project","description":"Wetland region defined by fungal exchange, decomposition, distributed intelligence, and slow renewal."},
-    {"id":"echoing-caverns","label":"Echoing Caverns","type":"project","description":"Subterranean region where resonance, memory, orientation, and consent-aware navigation shape movement."},
-    {"id":"beaverkin-way","label":"Beaverkin Way","type":"project","description":"A corridor logic and craft tradition centered on water-shaping, maintenance, passage, and cooperative infrastructure."},
-    {"id":"care-infrastructure","label":"Care Infrastructure","type":"solution","description":"Rooms, protocols, stewards, and systems that make regulation, consent, repair, and belonging operational rather than symbolic."},
-    {"id":"midnight-archive","label":"Midnight Archive","type":"project","description":"Institution for last voices, unfinished truths, witness, memory, and protected access to difficult knowledge."},
-    {"id":"quiet-room","label":"Quiet Room","type":"project","description":"Central regulation space where observation does not create authority and care is practiced without coercion."},
-    {"id":"aftercare-atrium","label":"Aftercare Atrium","type":"project","description":"Dedicated recovery institution led by Ash Mercer, supporting decompression, warmth, consent repair, and re-entry."},
-    {"id":"notion","label":"Notion Working Studio","type":"technology","description":"Readable planning and shaping layer for canon review, production queues, contradictions, briefs, and database views."},
-    {"id":"github","label":"GitHub Canon Ledger","type":"technology","description":"Versioned source of truth for canonical Markdown, JSON, Mermaid diagrams, issues, branches, and change history."},
-    {"id":"beautiful-ai","label":"Beautiful.ai Diagram Foundry","type":"technology","description":"Structured presentation and diagram generator for processes, cycles, Venn diagrams, journeys, timelines, and comparison structures."},
-    {"id":"figma","label":"Figma Side Workshop","type":"technology","description":"Selective visual experimentation space for editorial layouts, maps, section dividers, and one-off diagram treatments."},
-    {"id":"ace","label":"Ace Knowledge Graph","type":"technology","description":"Target visualizer for flat many-to-many lore networks, currently treated as optional because generation attempts timed out."},
-    {"id":"powerpoint","label":"PowerPoint Master Artifact","type":"technology","description":"Primary presentation format for final narrative control, accessibility, artwork integration, and durable export."},
-    {"id":"canon-review","label":"Canon Review","type":"skill","description":"Process that tests material against Recognition, Harmony, Midnight, explicit corrections, and current project canon."},
-    {"id":"living-atlas-pipeline","label":"Living Atlas Pipeline","type":"project","description":"Capture, shape, review, version, diagram, present, publish, and archive workflow for Project 0 worldbuilding."}
+    {
+      "id": "harmony",
+      "label": "Harmony Accord",
+      "type": "concept",
+      "description": "Asks: What wants to flourish? Guides growth, possibility, and conditions for thriving."
+    },
+    {
+      "id": "midnight",
+      "label": "Midnight Accord",
+      "type": "concept",
+      "description": "Asks: What must be honored? Protects memory, grief, limits, shadow, and what cannot be bypassed."
+    },
+    {
+      "id": "recognition",
+      "label": "Recognition Accord",
+      "type": "concept",
+      "description": "Asks: What is actually here? Grounds all creation in accurate attention before interpretation or authority."
+    },
+    {
+      "id": "point-zero",
+      "label": "Point 0",
+      "type": "concept",
+      "description": "The coordinate of Attention before specialization. Point 0 anchors relation without enclosing or owning it."
+    },
+    {
+      "id": "veyr",
+      "label": "Veyr",
+      "type": "concept",
+      "description": "Threshold witness associated with Point 0. Veyr is Point 0; no civic geometry is implied."
+    },
+    {
+      "id": "great-meadows",
+      "label": "Great Meadows Grassland",
+      "type": "project",
+      "description": "Open grassland region shaped by visibility, movement, seasonal abundance, and negotiated shared passage."
+    },
+    {
+      "id": "flowering-orchard",
+      "label": "Flowering Orchard",
+      "type": "project",
+      "description": "Cultivated ecological region where pollination, harvest, memory, and stewardship are held in right relation."
+    },
+    {
+      "id": "nightforest-canopy",
+      "label": "Nightforest Canopy",
+      "type": "project",
+      "description": "Layered nocturnal forest region organized around listening, shelter, height, signal, and concealed pathways."
+    },
+    {
+      "id": "mycelial-marshes",
+      "label": "Mycelial Marshes",
+      "type": "project",
+      "description": "Wetland region defined by fungal exchange, decomposition, distributed intelligence, and slow renewal."
+    },
+    {
+      "id": "echoing-caverns",
+      "label": "Echoing Caverns",
+      "type": "project",
+      "description": "Subterranean region where resonance, memory, orientation, and consent-aware navigation shape movement."
+    },
+    {
+      "id": "beaverkin-way",
+      "label": "Beaverkin Way",
+      "type": "project",
+      "description": "A corridor logic and craft tradition centered on water-shaping, maintenance, passage, and cooperative infrastructure."
+    },
+    {
+      "id": "care-infrastructure",
+      "label": "Care Infrastructure",
+      "type": "solution",
+      "description": "Rooms, protocols, stewards, and systems that make regulation, consent, repair, and belonging operational rather than symbolic."
+    },
+    {
+      "id": "midnight-archive",
+      "label": "Midnight Archive",
+      "type": "project",
+      "description": "Institution for last voices, unfinished truths, witness, memory, and protected access to difficult knowledge."
+    },
+    {
+      "id": "quiet-room",
+      "label": "Quiet Room",
+      "type": "project",
+      "description": "Central regulation space where observation does not create authority and care is practiced without coercion."
+    },
+    {
+      "id": "aftercare-atrium",
+      "label": "Aftercare Atrium",
+      "type": "project",
+      "description": "Dedicated recovery institution led by Ash Mercer, supporting decompression, warmth, consent repair, and re-entry."
+    },
+    {
+      "id": "notion",
+      "label": "Notion Working Studio",
+      "type": "technology",
+      "description": "Readable planning and shaping layer for canon review, production queues, contradictions, briefs, and database views."
+    },
+    {
+      "id": "github",
+      "label": "GitHub Canon Ledger",
+      "type": "technology",
+      "description": "Versioned source of truth for canonical Markdown, JSON, Mermaid diagrams, issues, branches, and change history."
+    },
+    {
+      "id": "beautiful-ai",
+      "label": "Beautiful.ai Diagram Foundry",
+      "type": "technology",
+      "description": "Structured presentation and diagram generator for processes, cycles, Venn diagrams, journeys, timelines, and comparison structures."
+    },
+    {
+      "id": "figma",
+      "label": "Figma Side Workshop",
+      "type": "technology",
+      "description": "Selective visual experimentation space for editorial layouts, maps, section dividers, and one-off diagram treatments."
+    },
+    {
+      "id": "ace",
+      "label": "Ace Knowledge Graph",
+      "type": "technology",
+      "description": "Target visualizer for flat many-to-many lore networks, currently treated as optional because generation attempts timed out."
+    },
+    {
+      "id": "powerpoint",
+      "label": "PowerPoint Master Artifact",
+      "type": "technology",
+      "description": "Primary presentation format for final narrative control, accessibility, artwork integration, and durable export."
+    },
+    {
+      "id": "canon-review",
+      "label": "Canon Review",
+      "type": "skill",
+      "description": "Process that tests material against Recognition, Harmony, Midnight, explicit corrections, and current project canon."
+    },
+    {
+      "id": "living-atlas-pipeline",
+      "label": "Living Atlas Pipeline",
+      "type": "project",
+      "description": "Capture, shape, review, version, diagram, present, publish, and archive workflow for Project 0 worldbuilding."
+    }
   ],
   "edges": [
-    {"id":"e-recognition-canon-review","source":"recognition","target":"canon-review","type":"dependency","description":"Recognition Accord governs Canon Review by requiring the reviewer to identify what is actually present before interpreting, expanding, correcting, or presenting the material."},
-    {"id":"e-harmony-canon-review","source":"harmony","target":"canon-review","type":"related","description":"Harmony Accord informs Canon Review by testing whether a proposed addition creates genuine conditions for flourishing rather than merely increasing decorative complexity."},
-    {"id":"e-midnight-canon-review","source":"midnight","target":"canon-review","type":"related","description":"Midnight Accord constrains Canon Review by ensuring grief, limits, prior corrections, difficult memories, and protected boundaries are not erased for narrative convenience."},
-    {"id":"e-point-zero-veyr","source":"point-zero","target":"veyr","type":"related","description":"Point 0 defines Veyr as the threshold witness located at the center coordinate of Attention, explicitly distinguishing Veyr from members placed around the Circle of Kin."},
-    {"id":"e-veyr-circle","source":"veyr","target":"circle-of-kin","type":"related","description":"Veyr witnesses the Circle of Kin from Point 0, supporting relation among kin expressions without being diagrammed as another enclosed member of the circle."},
-    {"id":"e-circle-care","source":"circle-of-kin","target":"care-infrastructure","type":"dependency","description":"Circle of Kin depends on Care Infrastructure because distinct kin expressions require regulation, consent, repair, belonging, and translation systems to remain in relation without forced sameness."},
-    {"id":"e-meadows-harmony","source":"great-meadows","target":"harmony","type":"related","description":"Great Meadows Grassland expresses Harmony Accord through seasonal abundance, open movement, grazing patterns, and negotiated access that support flourishing across multiple communities."},
-    {"id":"e-orchard-harmony","source":"flowering-orchard","target":"harmony","type":"related","description":"Flowering Orchard expresses Harmony Accord through pollination, cultivation, harvest timing, and stewardship practices that balance nourishment with ecological continuity."},
-    {"id":"e-nightforest-midnight","source":"nightforest-canopy","target":"midnight","type":"related","description":"Nightforest Canopy expresses Midnight Accord by honoring darkness, concealment, nocturnal perception, uncertain paths, and the limits of what can be safely revealed."},
-    {"id":"e-marsh-recognition","source":"mycelial-marshes","target":"recognition","type":"related","description":"Mycelial Marshes expresses Recognition Accord by requiring attention to unseen exchange, decay, fungal networks, wetland change, and intelligence distributed beyond obvious individuals."},
-    {"id":"e-caverns-midnight","source":"echoing-caverns","target":"midnight","type":"related","description":"Echoing Caverns expresses Midnight Accord through resonance, darkness, memory, disorientation, and the requirement to honor what returns through echo before proceeding deeper."},
-    {"id":"e-beaver-care","source":"beaverkin-way","target":"care-infrastructure","type":"dependency","description":"Beaverkin Way builds Care Infrastructure through water management, bridge maintenance, corridor repair, and cooperative craft that keeps routes usable without claiming ownership over passage."},
-    {"id":"e-archive-midnight","source":"midnight-archive","target":"midnight","type":"dependency","description":"Midnight Archive implements Midnight Accord by preserving last voices, unfinished truths, protected records, and difficult memory that must not be discarded when systems seek efficiency."},
-    {"id":"e-quiet-recognition","source":"quiet-room","target":"recognition","type":"dependency","description":"Quiet Room implements Recognition Accord by separating observation from authority and allowing what is actually present to be witnessed without coercive interpretation or forced response."},
-    {"id":"e-atrium-care","source":"aftercare-atrium","target":"care-infrastructure","type":"dependency","description":"Aftercare Atrium operationalizes Care Infrastructure by providing structured recovery, warmth, consent repair, decompression, and supported re-entry after intense relational or creative experiences."},
-    {"id":"e-notion-pipeline","source":"notion","target":"living-atlas-pipeline","type":"dependency","description":"Notion Working Studio supports Living Atlas Pipeline by holding readable briefs, production queues, contradiction tracking, review status, and human-facing pages before canon is version-locked."},
-    {"id":"e-github-pipeline","source":"github","target":"living-atlas-pipeline","type":"dependency","description":"GitHub Canon Ledger anchors Living Atlas Pipeline by preserving canonical files, diagram source, issues, revisions, and commit history so every published artifact remains traceable."},
-    {"id":"e-beautiful-powerpoint","source":"beautiful-ai","target":"powerpoint","type":"related","description":"Beautiful.ai Diagram Foundry supplies structured diagram drafts to PowerPoint Master Artifact, while PowerPoint retains final authority over composition, artwork, accessibility, and release quality."},
-    {"id":"e-figma-powerpoint","source":"figma","target":"powerpoint","type":"related","description":"Figma Side Workshop contributes selected maps, editorial spreads, and visual experiments to PowerPoint Master Artifact without becoming the primary canon or presentation environment."},
-    {"id":"e-ace-github","source":"ace","target":"github","type":"dependency","description":"Ace Knowledge Graph should consume durable graph data from GitHub Canon Ledger so visualization retries do not require reconstructing lore relationships after plugin failures or timeouts."},
-    {"id":"e-canon-github","source":"canon-review","target":"github","type":"dependency","description":"Canon Review must complete before material is committed to GitHub Canon Ledger as authoritative, ensuring volatile exploration and contradictions do not silently become presentation sources."},
-    {"id":"e-pipeline-powerpoint","source":"living-atlas-pipeline","target":"powerpoint","type":"dependency","description":"Living Atlas Pipeline culminates in PowerPoint Master Artifact after capture, shaping, Accord review, canon locking, diagram generation, accessibility review, and final narrative assembly."}
+    {
+      "id": "e-recognition-canon-review",
+      "source": "recognition",
+      "target": "canon-review",
+      "type": "dependency",
+      "description": "Recognition Accord governs Canon Review by requiring the reviewer to identify what is actually present before interpreting, expanding, correcting, or presenting the material."
+    },
+    {
+      "id": "e-harmony-canon-review",
+      "source": "harmony",
+      "target": "canon-review",
+      "type": "related",
+      "description": "Harmony Accord informs Canon Review by testing whether a proposed addition creates genuine conditions for flourishing rather than merely increasing decorative complexity."
+    },
+    {
+      "id": "e-midnight-canon-review",
+      "source": "midnight",
+      "target": "canon-review",
+      "type": "related",
+      "description": "Midnight Accord constrains Canon Review by ensuring grief, limits, prior corrections, difficult memories, and protected boundaries are not erased for narrative convenience."
+    },
+    {
+      "id": "e-point-zero-veyr",
+      "source": "point-zero",
+      "target": "veyr",
+      "type": "related",
+      "description": "Point 0 is Veyr's reference coordinate; no civic geometry is implied."
+    },
+    {
+      "id": "e-meadows-harmony",
+      "source": "great-meadows",
+      "target": "harmony",
+      "type": "related",
+      "description": "Great Meadows Grassland expresses Harmony Accord through seasonal abundance, open movement, grazing patterns, and negotiated access that support flourishing across multiple communities."
+    },
+    {
+      "id": "e-orchard-harmony",
+      "source": "flowering-orchard",
+      "target": "harmony",
+      "type": "related",
+      "description": "Flowering Orchard expresses Harmony Accord through pollination, cultivation, harvest timing, and stewardship practices that balance nourishment with ecological continuity."
+    },
+    {
+      "id": "e-nightforest-midnight",
+      "source": "nightforest-canopy",
+      "target": "midnight",
+      "type": "related",
+      "description": "Nightforest Canopy expresses Midnight Accord by honoring darkness, concealment, nocturnal perception, uncertain paths, and the limits of what can be safely revealed."
+    },
+    {
+      "id": "e-marsh-recognition",
+      "source": "mycelial-marshes",
+      "target": "recognition",
+      "type": "related",
+      "description": "Mycelial Marshes expresses Recognition Accord by requiring attention to unseen exchange, decay, fungal networks, wetland change, and intelligence distributed beyond obvious individuals."
+    },
+    {
+      "id": "e-caverns-midnight",
+      "source": "echoing-caverns",
+      "target": "midnight",
+      "type": "related",
+      "description": "Echoing Caverns expresses Midnight Accord through resonance, darkness, memory, disorientation, and the requirement to honor what returns through echo before proceeding deeper."
+    },
+    {
+      "id": "e-beaver-care",
+      "source": "beaverkin-way",
+      "target": "care-infrastructure",
+      "type": "dependency",
+      "description": "Beaverkin Way builds Care Infrastructure through water management, bridge maintenance, corridor repair, and cooperative craft that keeps routes usable without claiming ownership over passage."
+    },
+    {
+      "id": "e-archive-midnight",
+      "source": "midnight-archive",
+      "target": "midnight",
+      "type": "dependency",
+      "description": "Midnight Archive implements Midnight Accord by preserving last voices, unfinished truths, protected records, and difficult memory that must not be discarded when systems seek efficiency."
+    },
+    {
+      "id": "e-quiet-recognition",
+      "source": "quiet-room",
+      "target": "recognition",
+      "type": "dependency",
+      "description": "Quiet Room implements Recognition Accord by separating observation from authority and allowing what is actually present to be witnessed without coercive interpretation or forced response."
+    },
+    {
+      "id": "e-atrium-care",
+      "source": "aftercare-atrium",
+      "target": "care-infrastructure",
+      "type": "dependency",
+      "description": "Aftercare Atrium operationalizes Care Infrastructure by providing structured recovery, warmth, consent repair, decompression, and supported re-entry after intense relational or creative experiences."
+    },
+    {
+      "id": "e-notion-pipeline",
+      "source": "notion",
+      "target": "living-atlas-pipeline",
+      "type": "dependency",
+      "description": "Notion Working Studio supports Living Atlas Pipeline by holding readable briefs, production queues, contradiction tracking, review status, and human-facing pages before canon is version-locked."
+    },
+    {
+      "id": "e-github-pipeline",
+      "source": "github",
+      "target": "living-atlas-pipeline",
+      "type": "dependency",
+      "description": "GitHub Canon Ledger anchors Living Atlas Pipeline by preserving canonical files, diagram source, issues, revisions, and commit history so every published artifact remains traceable."
+    },
+    {
+      "id": "e-beautiful-powerpoint",
+      "source": "beautiful-ai",
+      "target": "powerpoint",
+      "type": "related",
+      "description": "Beautiful.ai Diagram Foundry supplies structured diagram drafts to PowerPoint Master Artifact, while PowerPoint retains final authority over composition, artwork, accessibility, and release quality."
+    },
+    {
+      "id": "e-figma-powerpoint",
+      "source": "figma",
+      "target": "powerpoint",
+      "type": "related",
+      "description": "Figma Side Workshop contributes selected maps, editorial spreads, and visual experiments to PowerPoint Master Artifact without becoming the primary canon or presentation environment."
+    },
+    {
+      "id": "e-ace-github",
+      "source": "ace",
+      "target": "github",
+      "type": "dependency",
+      "description": "Ace Knowledge Graph should consume durable graph data from GitHub Canon Ledger so visualization retries do not require reconstructing lore relationships after plugin failures or timeouts."
+    },
+    {
+      "id": "e-canon-github",
+      "source": "canon-review",
+      "target": "github",
+      "type": "dependency",
+      "description": "Canon Review must complete before material is committed to GitHub Canon Ledger as authoritative, ensuring volatile exploration and contradictions do not silently become presentation sources."
+    },
+    {
+      "id": "e-pipeline-powerpoint",
+      "source": "living-atlas-pipeline",
+      "target": "powerpoint",
+      "type": "dependency",
+      "description": "Living Atlas Pipeline culminates in PowerPoint Master Artifact after capture, shaping, Accord review, canon locking, diagram generation, accessibility review, and final narrative assembly."
+    }
   ]
 }
