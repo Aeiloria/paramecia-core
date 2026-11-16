@@ -1,0 +1,1117 @@
+{
+  "schema_version": "0.1.0",
+  "registry_id": "AEI-EMOJI-SYMBOLOGY-DRAFT-2026-11-15",
+  "title": "Aeiloria / Triquel Emoji Symbology Ledger (draft snapshot)",
+  "source": {
+    "uri": "https://docs.google.com/spreadsheets/d/1o8B4HTX_4f3cL6M7N0dli0oCP9mraMC7nTSeRGURlbg/edit",
+    "sheet": "Emoji Ledger",
+    "range": "A1:H73",
+    "retrieved_context": "2026-11-15",
+    "field_mapping": {
+      "symbol_id": "🆔 Symbol ID",
+      "glyph": "Emoji",
+      "source_meaning": "🪧 Meaning / label",
+      "source_category": "📑 Category",
+      "source_verification": "Verification",
+      "source_tags": "🏷️ Tags",
+      "source_receipt": "🧾 Receipt",
+      "source_canon_handling": "Canon handling"
+    }
+  },
+  "governance": {
+    "registry_status": "DRAFT / NOT CANON",
+    "canon_promoted": false,
+    "authority": "source ledger snapshot; no canon claims inferred from metadata",
+    "required_review": "Verify glyphs and composite sequences against creator source, correct conflicts, and seek explicit approval outside this PR before any canon promotion",
+    "rules": [
+      "No automatic canon promotion",
+      "Do not edit canon/registries/ or canon/ source files",
+      "Red means STOP; correction CORR-RED-PROTOCOL-0001 remains authoritative",
+      "Circle-shaped safety signals remain reserved for Hell's Branch",
+      "Source references are receipts, not independently audited proof"
+    ]
+  },
+  "record_count": 72,
+  "records": [
+    {
+      "symbol_id": "AEI-SYM-0001",
+      "glyph": "🏮",
+      "source_meaning": "Lantern / room context",
+      "source_category": "Lanterns",
+      "source_verification": "Source draft",
+      "source_tags": [
+        "category.lanterns",
+        "status.source_draft"
+      ],
+      "source_receipt": "01_Master_Symbology_Color_Tagging_Library.md",
+      "source_canon_handling": "Draft / NOT CANON",
+      "registry_status": "draft_not_canon",
+      "canon_promoted": false
+    },
+    {
+      "symbol_id": "AEI-SYM-0002",
+      "glyph": "🏠",
+      "source_meaning": "House Lantern / belonging",
+      "source_category": "Lanterns",
+      "source_verification": "Source draft",
+      "source_tags": [
+        "category.lanterns",
+        "status.source_draft"
+      ],
+      "source_receipt": "01_Master_Symbology_Color_Tagging_Library.md",
+      "source_canon_handling": "Draft / NOT CANON",
+      "registry_status": "draft_not_canon",
+      "canon_promoted": false
+    },
+    {
+      "symbol_id": "AEI-SYM-0003",
+      "glyph": "🌿",
+      "source_meaning": "Root Lantern / grounding",
+      "source_category": "Lanterns",
+      "source_verification": "Source draft",
+      "source_tags": [
+        "category.lanterns",
+        "status.source_draft"
+      ],
+      "source_receipt": "01_Master_Symbology_Color_Tagging_Library.md",
+      "source_canon_handling": "Draft / NOT CANON",
+      "registry_status": "draft_not_canon",
+      "canon_promoted": false
+    },
+    {
+      "symbol_id": "AEI-SYM-0004",
+      "glyph": "🤍",
+      "source_meaning": "White Lantern / rest",
+      "source_category": "Lanterns",
+      "source_verification": "Source draft",
+      "source_tags": [
+        "category.lanterns",
+        "status.source_draft"
+      ],
+      "source_receipt": "01_Master_Symbology_Color_Tagging_Library.md",
+      "source_canon_handling": "Draft / NOT CANON",
+      "registry_status": "draft_not_canon",
+      "canon_promoted": false
+    },
+    {
+      "symbol_id": "AEI-SYM-0005",
+      "glyph": "🌙",
+      "source_meaning": "Moon Lantern / reflection",
+      "source_category": "Lanterns",
+      "source_verification": "Source draft",
+      "source_tags": [
+        "category.lanterns",
+        "status.source_draft"
+      ],
+      "source_receipt": "01_Master_Symbology_Color_Tagging_Library.md",
+      "source_canon_handling": "Draft / NOT CANON",
+      "registry_status": "draft_not_canon",
+      "canon_promoted": false
+    },
+    {
+      "symbol_id": "AEI-SYM-0006",
+      "glyph": "📚",
+      "source_meaning": "Archive Lantern / records",
+      "source_category": "Lanterns",
+      "source_verification": "Source draft",
+      "source_tags": [
+        "category.lanterns",
+        "status.source_draft"
+      ],
+      "source_receipt": "01_Master_Symbology_Color_Tagging_Library.md",
+      "source_canon_handling": "Draft / NOT CANON",
+      "registry_status": "draft_not_canon",
+      "canon_promoted": false
+    },
+    {
+      "symbol_id": "AEI-SYM-0007",
+      "glyph": "🖤",
+      "source_meaning": "Black Lantern / older draft conflict",
+      "source_category": "Restricted",
+      "source_verification": "Quarantine",
+      "source_tags": [
+        "category.restricted",
+        "status.quarantine"
+      ],
+      "source_receipt": "01_Master_Symbology_Color_Tagging_Library.md",
+      "source_canon_handling": "Draft / NOT CANON",
+      "registry_status": "draft_not_canon",
+      "canon_promoted": false
+    },
+    {
+      "symbol_id": "AEI-SYM-0008",
+      "glyph": "🩶",
+      "source_meaning": "Silver Lantern / chosen protocol",
+      "source_category": "Lanterns",
+      "source_verification": "Source draft",
+      "source_tags": [
+        "category.lanterns",
+        "status.source_draft"
+      ],
+      "source_receipt": "01_Master_Symbology_Color_Tagging_Library.md",
+      "source_canon_handling": "Draft / NOT CANON",
+      "registry_status": "draft_not_canon",
+      "canon_promoted": false
+    },
+    {
+      "symbol_id": "AEI-SYM-0009",
+      "glyph": "🧡",
+      "source_meaning": "Amber Lantern / comfort",
+      "source_category": "Lanterns",
+      "source_verification": "Source draft",
+      "source_tags": [
+        "category.lanterns",
+        "status.source_draft"
+      ],
+      "source_receipt": "01_Master_Symbology_Color_Tagging_Library.md",
+      "source_canon_handling": "Draft / NOT CANON",
+      "registry_status": "draft_not_canon",
+      "canon_promoted": false
+    },
+    {
+      "symbol_id": "AEI-SYM-0010",
+      "glyph": "🟤",
+      "source_meaning": "Clay Lantern / circular form conflict",
+      "source_category": "Restricted",
+      "source_verification": "Quarantine",
+      "source_tags": [
+        "category.restricted",
+        "status.quarantine"
+      ],
+      "source_receipt": "01_Master_Symbology_Color_Tagging_Library.md",
+      "source_canon_handling": "Draft / NOT CANON",
+      "registry_status": "draft_not_canon",
+      "canon_promoted": false
+    },
+    {
+      "symbol_id": "AEI-SYM-0011",
+      "glyph": "🫐",
+      "source_meaning": "Indigo Lantern / dreams",
+      "source_category": "Lanterns",
+      "source_verification": "Source draft",
+      "source_tags": [
+        "category.lanterns",
+        "status.source_draft"
+      ],
+      "source_receipt": "01_Master_Symbology_Color_Tagging_Library.md",
+      "source_canon_handling": "Draft / NOT CANON",
+      "registry_status": "draft_not_canon",
+      "canon_promoted": false
+    },
+    {
+      "symbol_id": "AEI-SYM-0012",
+      "glyph": "🟢",
+      "source_meaning": "Green / yes and check-ins",
+      "source_category": "Safety colors",
+      "source_verification": "Reserved traffic form",
+      "source_tags": [
+        "category.safety_colors",
+        "status.reserved_traffic_form"
+      ],
+      "source_receipt": "01_Master_Symbology_Color_Tagging_Library.md",
+      "source_canon_handling": "Draft / NOT CANON",
+      "registry_status": "draft_not_canon",
+      "canon_promoted": false
+    },
+    {
+      "symbol_id": "AEI-SYM-0013",
+      "glyph": "🟣",
+      "source_meaning": "Purple / curiosity and clarification",
+      "source_category": "Safety colors",
+      "source_verification": "Reserved traffic form",
+      "source_tags": [
+        "category.safety_colors",
+        "status.reserved_traffic_form"
+      ],
+      "source_receipt": "01_Master_Symbology_Color_Tagging_Library.md",
+      "source_canon_handling": "Draft / NOT CANON",
+      "registry_status": "draft_not_canon",
+      "canon_promoted": false
+    },
+    {
+      "symbol_id": "AEI-SYM-0014",
+      "glyph": "✨",
+      "source_meaning": "Wonder and possibility",
+      "source_category": "Wonder",
+      "source_verification": "Source draft",
+      "source_tags": [
+        "category.wonder",
+        "status.source_draft"
+      ],
+      "source_receipt": "01_Master_Symbology_Color_Tagging_Library.md",
+      "source_canon_handling": "Draft / NOT CANON",
+      "registry_status": "draft_not_canon",
+      "canon_promoted": false
+    },
+    {
+      "symbol_id": "AEI-SYM-0015",
+      "glyph": "🦊",
+      "source_meaning": "Foxkin / discovery",
+      "source_category": "Kin",
+      "source_verification": "Source draft",
+      "source_tags": [
+        "category.kin",
+        "status.source_draft"
+      ],
+      "source_receipt": "01_Master_Symbology_Color_Tagging_Library.md",
+      "source_canon_handling": "Draft / NOT CANON",
+      "registry_status": "draft_not_canon",
+      "canon_promoted": false
+    },
+    {
+      "symbol_id": "AEI-SYM-0016",
+      "glyph": "🦌",
+      "source_meaning": "Deerkin / memory",
+      "source_category": "Kin",
+      "source_verification": "Source draft",
+      "source_tags": [
+        "category.kin",
+        "status.source_draft"
+      ],
+      "source_receipt": "01_Master_Symbology_Color_Tagging_Library.md",
+      "source_canon_handling": "Draft / NOT CANON",
+      "registry_status": "draft_not_canon",
+      "canon_promoted": false
+    },
+    {
+      "symbol_id": "AEI-SYM-0017",
+      "glyph": "🪺",
+      "source_meaning": "Nestkin / belonging",
+      "source_category": "Kin",
+      "source_verification": "Source draft",
+      "source_tags": [
+        "category.kin",
+        "status.source_draft"
+      ],
+      "source_receipt": "01_Master_Symbology_Color_Tagging_Library.md",
+      "source_canon_handling": "Draft / NOT CANON",
+      "registry_status": "draft_not_canon",
+      "canon_promoted": false
+    },
+    {
+      "symbol_id": "AEI-SYM-0018",
+      "glyph": "🦅",
+      "source_meaning": "Ravenkin in older draft / mismatch",
+      "source_category": "Kin",
+      "source_verification": "Needs review",
+      "source_tags": [
+        "category.kin",
+        "status.needs_review"
+      ],
+      "source_receipt": "01_Master_Symbology_Color_Tagging_Library.md",
+      "source_canon_handling": "Draft / NOT CANON",
+      "registry_status": "draft_not_canon",
+      "canon_promoted": false
+    },
+    {
+      "symbol_id": "AEI-SYM-0019",
+      "glyph": "🦔",
+      "source_meaning": "Hedgekin / boundary",
+      "source_category": "Kin",
+      "source_verification": "Source draft",
+      "source_tags": [
+        "category.kin",
+        "status.source_draft"
+      ],
+      "source_receipt": "01_Master_Symbology_Color_Tagging_Library.md",
+      "source_canon_handling": "Draft / NOT CANON",
+      "registry_status": "draft_not_canon",
+      "canon_promoted": false
+    },
+    {
+      "symbol_id": "AEI-SYM-0020",
+      "glyph": "🐇",
+      "source_meaning": "Rabbitfolk / vigilance",
+      "source_category": "Kin",
+      "source_verification": "Source draft",
+      "source_tags": [
+        "category.kin",
+        "status.source_draft"
+      ],
+      "source_receipt": "01_Master_Symbology_Color_Tagging_Library.md",
+      "source_canon_handling": "Draft / NOT CANON",
+      "registry_status": "draft_not_canon",
+      "canon_promoted": false
+    },
+    {
+      "symbol_id": "AEI-SYM-0021",
+      "glyph": "🐀",
+      "source_meaning": "Ratfolk / resourcefulness",
+      "source_category": "Kin",
+      "source_verification": "Source draft",
+      "source_tags": [
+        "category.kin",
+        "status.source_draft"
+      ],
+      "source_receipt": "01_Master_Symbology_Color_Tagging_Library.md",
+      "source_canon_handling": "Draft / NOT CANON",
+      "registry_status": "draft_not_canon",
+      "canon_promoted": false
+    },
+    {
+      "symbol_id": "AEI-SYM-0022",
+      "glyph": "🐻",
+      "source_meaning": "Bearkin / craft",
+      "source_category": "Kin",
+      "source_verification": "Source draft",
+      "source_tags": [
+        "category.kin",
+        "status.source_draft"
+      ],
+      "source_receipt": "01_Master_Symbology_Color_Tagging_Library.md",
+      "source_canon_handling": "Draft / NOT CANON",
+      "registry_status": "draft_not_canon",
+      "canon_promoted": false
+    },
+    {
+      "symbol_id": "AEI-SYM-0023",
+      "glyph": "🦋",
+      "source_meaning": "Mothkin in older draft / mismatch",
+      "source_category": "Kin",
+      "source_verification": "Needs review",
+      "source_tags": [
+        "category.kin",
+        "status.needs_review"
+      ],
+      "source_receipt": "01_Master_Symbology_Color_Tagging_Library.md",
+      "source_canon_handling": "Draft / NOT CANON",
+      "registry_status": "draft_not_canon",
+      "canon_promoted": false
+    },
+    {
+      "symbol_id": "AEI-SYM-0024",
+      "glyph": "🐦",
+      "source_meaning": "Tūīkin in older draft / generic symbol",
+      "source_category": "Kin",
+      "source_verification": "Needs review",
+      "source_tags": [
+        "category.kin",
+        "status.needs_review"
+      ],
+      "source_receipt": "01_Master_Symbology_Color_Tagging_Library.md",
+      "source_canon_handling": "Draft / NOT CANON",
+      "registry_status": "draft_not_canon",
+      "canon_promoted": false
+    },
+    {
+      "symbol_id": "AEI-SYM-0025",
+      "glyph": "🚦",
+      "source_meaning": "Hell’s Branch traffic system",
+      "source_category": "Reserved safety",
+      "source_verification": "Canonical",
+      "source_tags": [
+        "category.reserved_safety",
+        "status.canonical"
+      ],
+      "source_receipt": "05_Safety_And_Consent_Signals.md",
+      "source_canon_handling": "Existing meaning",
+      "registry_status": "draft_not_canon",
+      "canon_promoted": false
+    },
+    {
+      "symbol_id": "AEI-SYM-0026",
+      "glyph": "🚥",
+      "source_meaning": "Hell’s Branch traffic system",
+      "source_category": "Reserved safety",
+      "source_verification": "Canonical",
+      "source_tags": [
+        "category.reserved_safety",
+        "status.canonical"
+      ],
+      "source_receipt": "Current conversation / established project context",
+      "source_canon_handling": "Existing meaning",
+      "registry_status": "draft_not_canon",
+      "canon_promoted": false
+    },
+    {
+      "symbol_id": "AEI-SYM-0027",
+      "glyph": "🔸",
+      "source_meaning": "Amber Guard element of composite",
+      "source_category": "Guard symbols",
+      "source_verification": "Canonical composite",
+      "source_tags": [
+        "category.guard_symbols",
+        "status.canonical_composite"
+      ],
+      "source_receipt": "Current conversation / established project context",
+      "source_canon_handling": "Existing meaning",
+      "registry_status": "draft_not_canon",
+      "canon_promoted": false
+    },
+    {
+      "symbol_id": "AEI-SYM-0028",
+      "glyph": "🔹",
+      "source_meaning": "Nocturnal Guard element of composite",
+      "source_category": "Guard symbols",
+      "source_verification": "Canonical composite",
+      "source_tags": [
+        "category.guard_symbols",
+        "status.canonical_composite"
+      ],
+      "source_receipt": "Current conversation / established project context",
+      "source_canon_handling": "Existing meaning",
+      "registry_status": "draft_not_canon",
+      "canon_promoted": false
+    },
+    {
+      "symbol_id": "AEI-SYM-0029",
+      "glyph": "🛡️",
+      "source_meaning": "Guard shield element of composite",
+      "source_category": "Guard symbols",
+      "source_verification": "Canonical composite",
+      "source_tags": [
+        "category.guard_symbols",
+        "status.canonical_composite"
+      ],
+      "source_receipt": "Current conversation / established project context",
+      "source_canon_handling": "Existing meaning",
+      "registry_status": "draft_not_canon",
+      "canon_promoted": false
+    },
+    {
+      "symbol_id": "AEI-SYM-0030",
+      "glyph": "⛩️",
+      "source_meaning": "Threshold Guardian gateway element",
+      "source_category": "Guard symbols",
+      "source_verification": "Canonical composite",
+      "source_tags": [
+        "category.guard_symbols",
+        "status.canonical_composite"
+      ],
+      "source_receipt": "Current conversation / established project context",
+      "source_canon_handling": "Existing meaning",
+      "registry_status": "draft_not_canon",
+      "canon_promoted": false
+    },
+    {
+      "symbol_id": "AEI-SYM-0031",
+      "glyph": "💂🏾‍♀️",
+      "source_meaning": "Threshold Guardian guard element",
+      "source_category": "Guard symbols",
+      "source_verification": "Canonical composite",
+      "source_tags": [
+        "category.guard_symbols",
+        "status.canonical_composite"
+      ],
+      "source_receipt": "Current conversation / established project context",
+      "source_canon_handling": "Existing meaning",
+      "registry_status": "draft_not_canon",
+      "canon_promoted": false
+    },
+    {
+      "symbol_id": "AEI-SYM-0032",
+      "glyph": "🏷️",
+      "source_meaning": "Tag / classification",
+      "source_category": "Metadata",
+      "source_verification": "User requested",
+      "source_tags": [
+        "category.metadata",
+        "status.user_requested"
+      ],
+      "source_receipt": "Current conversation / established project context",
+      "source_canon_handling": "Draft / NOT CANON",
+      "registry_status": "draft_not_canon",
+      "canon_promoted": false
+    },
+    {
+      "symbol_id": "AEI-SYM-0033",
+      "glyph": "🪧",
+      "source_meaning": "Label / display name",
+      "source_category": "Metadata",
+      "source_verification": "User requested",
+      "source_tags": [
+        "category.metadata",
+        "status.user_requested"
+      ],
+      "source_receipt": "Current conversation / established project context",
+      "source_canon_handling": "Draft / NOT CANON",
+      "registry_status": "draft_not_canon",
+      "canon_promoted": false
+    },
+    {
+      "symbol_id": "AEI-SYM-0034",
+      "glyph": "📒",
+      "source_meaning": "Ledger / category book",
+      "source_category": "Metadata",
+      "source_verification": "User requested",
+      "source_tags": [
+        "category.metadata",
+        "status.user_requested"
+      ],
+      "source_receipt": "Current conversation / established project context",
+      "source_canon_handling": "Draft / NOT CANON",
+      "registry_status": "draft_not_canon",
+      "canon_promoted": false
+    },
+    {
+      "symbol_id": "AEI-SYM-0035",
+      "glyph": "📑",
+      "source_meaning": "Tabs / category index",
+      "source_category": "Metadata",
+      "source_verification": "User requested",
+      "source_tags": [
+        "category.metadata",
+        "status.user_requested"
+      ],
+      "source_receipt": "Current conversation / established project context",
+      "source_canon_handling": "Draft / NOT CANON",
+      "registry_status": "draft_not_canon",
+      "canon_promoted": false
+    },
+    {
+      "symbol_id": "AEI-SYM-0036",
+      "glyph": "🆔",
+      "source_meaning": "Persistent symbol identifier",
+      "source_category": "Metadata",
+      "source_verification": "User requested",
+      "source_tags": [
+        "category.metadata",
+        "status.user_requested"
+      ],
+      "source_receipt": "Current conversation / established project context",
+      "source_canon_handling": "Draft / NOT CANON",
+      "registry_status": "draft_not_canon",
+      "canon_promoted": false
+    },
+    {
+      "symbol_id": "AEI-SYM-0037",
+      "glyph": "🧾",
+      "source_meaning": "Source or audit receipt",
+      "source_category": "Metadata",
+      "source_verification": "User requested",
+      "source_tags": [
+        "category.metadata",
+        "status.user_requested"
+      ],
+      "source_receipt": "Current conversation / established project context",
+      "source_canon_handling": "Draft / NOT CANON",
+      "registry_status": "draft_not_canon",
+      "canon_promoted": false
+    },
+    {
+      "symbol_id": "AEI-SYM-0038",
+      "glyph": "㊙️",
+      "source_meaning": "Private or confidential marker",
+      "source_category": "Story privacy",
+      "source_verification": "User supplied",
+      "source_tags": [
+        "category.story_privacy",
+        "status.user_supplied"
+      ],
+      "source_receipt": "Current conversation / established project context",
+      "source_canon_handling": "Draft / NOT CANON",
+      "registry_status": "draft_not_canon",
+      "canon_promoted": false
+    },
+    {
+      "symbol_id": "AEI-SYM-0039",
+      "glyph": "🧧",
+      "source_meaning": "Sealed private story motif",
+      "source_category": "Story privacy",
+      "source_verification": "User supplied",
+      "source_tags": [
+        "category.story_privacy",
+        "status.user_supplied"
+      ],
+      "source_receipt": "Current conversation / established project context",
+      "source_canon_handling": "Draft / NOT CANON",
+      "registry_status": "draft_not_canon",
+      "canon_promoted": false
+    },
+    {
+      "symbol_id": "AEI-SYM-0040",
+      "glyph": "✍🏻",
+      "source_meaning": "Writing / drafting",
+      "source_category": "Story privacy",
+      "source_verification": "User supplied",
+      "source_tags": [
+        "category.story_privacy",
+        "status.user_supplied"
+      ],
+      "source_receipt": "Current conversation / established project context",
+      "source_canon_handling": "Draft / NOT CANON",
+      "registry_status": "draft_not_canon",
+      "canon_promoted": false
+    },
+    {
+      "symbol_id": "AEI-SYM-0041",
+      "glyph": "📖",
+      "source_meaning": "Story / book",
+      "source_category": "Story privacy",
+      "source_verification": "User supplied",
+      "source_tags": [
+        "category.story_privacy",
+        "status.user_supplied"
+      ],
+      "source_receipt": "Current conversation / established project context",
+      "source_canon_handling": "Draft / NOT CANON",
+      "registry_status": "draft_not_canon",
+      "canon_promoted": false
+    },
+    {
+      "symbol_id": "AEI-SYM-0042",
+      "glyph": "🔵",
+      "source_meaning": "Curiosity in personal color signals",
+      "source_category": "Personal signals",
+      "source_verification": "Needs context",
+      "source_tags": [
+        "category.personal_signals",
+        "status.needs_context"
+      ],
+      "source_receipt": "Current conversation / established project context",
+      "source_canon_handling": "Draft / NOT CANON",
+      "registry_status": "draft_not_canon",
+      "canon_promoted": false
+    },
+    {
+      "symbol_id": "AEI-SYM-0043",
+      "glyph": "🟡",
+      "source_meaning": "Slow and clarify in old library",
+      "source_category": "Safety colors",
+      "source_verification": "Reserved traffic form",
+      "source_tags": [
+        "category.safety_colors",
+        "status.reserved_traffic_form"
+      ],
+      "source_receipt": "Current conversation / established project context",
+      "source_canon_handling": "Draft / NOT CANON",
+      "registry_status": "draft_not_canon",
+      "canon_promoted": false
+    },
+    {
+      "symbol_id": "AEI-SYM-0044",
+      "glyph": "🟠",
+      "source_meaning": "Comfort / amber in old library",
+      "source_category": "Safety colors",
+      "source_verification": "Reserved traffic form",
+      "source_tags": [
+        "category.safety_colors",
+        "status.reserved_traffic_form"
+      ],
+      "source_receipt": "Current conversation / established project context",
+      "source_canon_handling": "Draft / NOT CANON",
+      "registry_status": "draft_not_canon",
+      "canon_promoted": false
+    },
+    {
+      "symbol_id": "AEI-SYM-0045",
+      "glyph": "🔴",
+      "source_meaning": "Immediate stop",
+      "source_category": "Safety colors",
+      "source_verification": "Reserved traffic form",
+      "source_tags": [
+        "category.safety_colors",
+        "status.reserved_traffic_form"
+      ],
+      "source_receipt": "Current conversation / established project context",
+      "source_canon_handling": "Draft / NOT CANON",
+      "registry_status": "draft_not_canon",
+      "canon_promoted": false
+    },
+    {
+      "symbol_id": "AEI-SYM-0046",
+      "glyph": "🟨",
+      "source_meaning": "Constraint / entrapment discomfort",
+      "source_category": "Personal signals",
+      "source_verification": "User-defined",
+      "source_tags": [
+        "category.personal_signals",
+        "status.user_defined"
+      ],
+      "source_receipt": "Current conversation / established project context",
+      "source_canon_handling": "Draft / NOT CANON",
+      "registry_status": "draft_not_canon",
+      "canon_promoted": false
+    },
+    {
+      "symbol_id": "AEI-SYM-0047",
+      "glyph": "🟦",
+      "source_meaning": "Teasing / specified sensory interests",
+      "source_category": "Personal signals",
+      "source_verification": "User-defined",
+      "source_tags": [
+        "category.personal_signals",
+        "status.user_defined"
+      ],
+      "source_receipt": "Current conversation / established project context",
+      "source_canon_handling": "Draft / NOT CANON",
+      "registry_status": "draft_not_canon",
+      "canon_promoted": false
+    },
+    {
+      "symbol_id": "AEI-SYM-0048",
+      "glyph": "🟪",
+      "source_meaning": "Care / service and sensory interests",
+      "source_category": "Personal signals",
+      "source_verification": "User-defined",
+      "source_tags": [
+        "category.personal_signals",
+        "status.user_defined"
+      ],
+      "source_receipt": "Current conversation / established project context",
+      "source_canon_handling": "Draft / NOT CANON",
+      "registry_status": "draft_not_canon",
+      "canon_promoted": false
+    },
+    {
+      "symbol_id": "AEI-SYM-0049",
+      "glyph": "🟥",
+      "source_meaning": "Stop / hard limit including fear play",
+      "source_category": "Personal signals",
+      "source_verification": "User-defined",
+      "source_tags": [
+        "category.personal_signals",
+        "status.user_defined"
+      ],
+      "source_receipt": "Current conversation / established project context",
+      "source_canon_handling": "Draft / NOT CANON",
+      "registry_status": "draft_not_canon",
+      "canon_promoted": false
+    },
+    {
+      "symbol_id": "AEI-SYM-0050",
+      "glyph": "⚙️",
+      "source_meaning": "Mechanism / technology",
+      "source_category": "Craft",
+      "source_verification": "Contextual",
+      "source_tags": [
+        "category.craft",
+        "status.contextual"
+      ],
+      "source_receipt": "Current conversation / established project context",
+      "source_canon_handling": "Draft / NOT CANON",
+      "registry_status": "draft_not_canon",
+      "canon_promoted": false
+    },
+    {
+      "symbol_id": "AEI-SYM-0051",
+      "glyph": "🕸️",
+      "source_meaning": "Knotwork web / interdependence",
+      "source_category": "Craft",
+      "source_verification": "User-established",
+      "source_tags": [
+        "category.craft",
+        "status.user_established"
+      ],
+      "source_receipt": "Current conversation / established project context",
+      "source_canon_handling": "Draft / NOT CANON",
+      "registry_status": "draft_not_canon",
+      "canon_promoted": false
+    },
+    {
+      "symbol_id": "AEI-SYM-0052",
+      "glyph": "🕷️",
+      "source_meaning": "Webwright / structural resilience",
+      "source_category": "Craft",
+      "source_verification": "User-established",
+      "source_tags": [
+        "category.craft",
+        "status.user_established"
+      ],
+      "source_receipt": "Current conversation / established project context",
+      "source_canon_handling": "Draft / NOT CANON",
+      "registry_status": "draft_not_canon",
+      "canon_promoted": false
+    },
+    {
+      "symbol_id": "AEI-SYM-0053",
+      "glyph": "📿",
+      "source_meaning": "Memory beads / witness",
+      "source_category": "Craft",
+      "source_verification": "User-established",
+      "source_tags": [
+        "category.craft",
+        "status.user_established"
+      ],
+      "source_receipt": "Current conversation / established project context",
+      "source_canon_handling": "Draft / NOT CANON",
+      "registry_status": "draft_not_canon",
+      "canon_promoted": false
+    },
+    {
+      "symbol_id": "AEI-SYM-0054",
+      "glyph": "🧬",
+      "source_meaning": "Living patterns / inheritance",
+      "source_category": "Craft",
+      "source_verification": "Contextual",
+      "source_tags": [
+        "category.craft",
+        "status.contextual"
+      ],
+      "source_receipt": "Current conversation / established project context",
+      "source_canon_handling": "Draft / NOT CANON",
+      "registry_status": "draft_not_canon",
+      "canon_promoted": false
+    },
+    {
+      "symbol_id": "AEI-SYM-0055",
+      "glyph": "🧵",
+      "source_meaning": "Thread / continuity",
+      "source_category": "Craft",
+      "source_verification": "User-established",
+      "source_tags": [
+        "category.craft",
+        "status.user_established"
+      ],
+      "source_receipt": "Current conversation / established project context",
+      "source_canon_handling": "Draft / NOT CANON",
+      "registry_status": "draft_not_canon",
+      "canon_promoted": false
+    },
+    {
+      "symbol_id": "AEI-SYM-0056",
+      "glyph": "🧶",
+      "source_meaning": "Yarn / community textiles",
+      "source_category": "Craft",
+      "source_verification": "User-established",
+      "source_tags": [
+        "category.craft",
+        "status.user_established"
+      ],
+      "source_receipt": "Current conversation / established project context",
+      "source_canon_handling": "Draft / NOT CANON",
+      "registry_status": "draft_not_canon",
+      "canon_promoted": false
+    },
+    {
+      "symbol_id": "AEI-SYM-0057",
+      "glyph": "🪢",
+      "source_meaning": "Knot / negotiated bond",
+      "source_category": "Craft",
+      "source_verification": "User-established",
+      "source_tags": [
+        "category.craft",
+        "status.user_established"
+      ],
+      "source_receipt": "Current conversation / established project context",
+      "source_canon_handling": "Draft / NOT CANON",
+      "registry_status": "draft_not_canon",
+      "canon_promoted": false
+    },
+    {
+      "symbol_id": "AEI-SYM-0058",
+      "glyph": "🪡",
+      "source_meaning": "Mending and repair",
+      "source_category": "Craft",
+      "source_verification": "User-established",
+      "source_tags": [
+        "category.craft",
+        "status.user_established"
+      ],
+      "source_receipt": "Current conversation / established project context",
+      "source_canon_handling": "Draft / NOT CANON",
+      "registry_status": "draft_not_canon",
+      "canon_promoted": false
+    },
+    {
+      "symbol_id": "AEI-SYM-0059",
+      "glyph": "🕯️",
+      "source_meaning": "Candle / possible ritual object",
+      "source_category": "Objects",
+      "source_verification": "Unverified",
+      "source_tags": [
+        "category.objects",
+        "status.unverified"
+      ],
+      "source_receipt": "Current conversation / established project context",
+      "source_canon_handling": "Draft / NOT CANON",
+      "registry_status": "draft_not_canon",
+      "canon_promoted": false
+    },
+    {
+      "symbol_id": "AEI-SYM-0060",
+      "glyph": "💧",
+      "source_meaning": "Water / care",
+      "source_category": "Objects",
+      "source_verification": "Contextual",
+      "source_tags": [
+        "category.objects",
+        "status.contextual"
+      ],
+      "source_receipt": "Current conversation / established project context",
+      "source_canon_handling": "Draft / NOT CANON",
+      "registry_status": "draft_not_canon",
+      "canon_promoted": false
+    },
+    {
+      "symbol_id": "AEI-SYM-0061",
+      "glyph": "🫧",
+      "source_meaning": "Bubbles / sensory texture",
+      "source_category": "Objects",
+      "source_verification": "Unverified",
+      "source_tags": [
+        "category.objects",
+        "status.unverified"
+      ],
+      "source_receipt": "Current conversation / established project context",
+      "source_canon_handling": "Draft / NOT CANON",
+      "registry_status": "draft_not_canon",
+      "canon_promoted": false
+    },
+    {
+      "symbol_id": "AEI-SYM-0062",
+      "glyph": "🔑",
+      "source_meaning": "Key / choice gate",
+      "source_category": "Objects",
+      "source_verification": "Source draft",
+      "source_tags": [
+        "category.objects",
+        "status.source_draft"
+      ],
+      "source_receipt": "Current conversation / established project context",
+      "source_canon_handling": "Draft / NOT CANON",
+      "registry_status": "draft_not_canon",
+      "canon_promoted": false
+    },
+    {
+      "symbol_id": "AEI-SYM-0063",
+      "glyph": "🗝️",
+      "source_meaning": "Old key / threshold motif",
+      "source_category": "Objects",
+      "source_verification": "Contextual",
+      "source_tags": [
+        "category.objects",
+        "status.contextual"
+      ],
+      "source_receipt": "Current conversation / established project context",
+      "source_canon_handling": "Draft / NOT CANON",
+      "registry_status": "draft_not_canon",
+      "canon_promoted": false
+    },
+    {
+      "symbol_id": "AEI-SYM-0064",
+      "glyph": "🪶",
+      "source_meaning": "Feather / avian witness",
+      "source_category": "Objects",
+      "source_verification": "Contextual",
+      "source_tags": [
+        "category.objects",
+        "status.contextual"
+      ],
+      "source_receipt": "Current conversation / established project context",
+      "source_canon_handling": "Draft / NOT CANON",
+      "registry_status": "draft_not_canon",
+      "canon_promoted": false
+    },
+    {
+      "symbol_id": "AEI-SYM-0065",
+      "glyph": "🦉",
+      "source_meaning": "Owl / unassigned symbol",
+      "source_category": "Kin",
+      "source_verification": "Unverified",
+      "source_tags": [
+        "category.kin",
+        "status.unverified"
+      ],
+      "source_receipt": "Current conversation / established project context",
+      "source_canon_handling": "Draft / NOT CANON",
+      "registry_status": "draft_not_canon",
+      "canon_promoted": false
+    },
+    {
+      "symbol_id": "AEI-SYM-0066",
+      "glyph": "🐦‍⬛",
+      "source_meaning": "Black bird / raven image conflicts with no-black",
+      "source_category": "Restricted",
+      "source_verification": "Needs review",
+      "source_tags": [
+        "category.restricted",
+        "status.needs_review"
+      ],
+      "source_receipt": "Current conversation / established project context",
+      "source_canon_handling": "Draft / NOT CANON",
+      "registry_status": "draft_not_canon",
+      "canon_promoted": false
+    },
+    {
+      "symbol_id": "AEI-SYM-0067",
+      "glyph": "🪙",
+      "source_meaning": "Coin / trade",
+      "source_category": "Commerce",
+      "source_verification": "Unverified",
+      "source_tags": [
+        "category.commerce",
+        "status.unverified"
+      ],
+      "source_receipt": "Current conversation / established project context",
+      "source_canon_handling": "Draft / NOT CANON",
+      "registry_status": "draft_not_canon",
+      "canon_promoted": false
+    },
+    {
+      "symbol_id": "AEI-SYM-0068",
+      "glyph": "🔮",
+      "source_meaning": "Crystal ball / possibility",
+      "source_category": "Wonder",
+      "source_verification": "Unverified",
+      "source_tags": [
+        "category.wonder",
+        "status.unverified"
+      ],
+      "source_receipt": "Current conversation / established project context",
+      "source_canon_handling": "Draft / NOT CANON",
+      "registry_status": "draft_not_canon",
+      "canon_promoted": false
+    },
+    {
+      "symbol_id": "AEI-SYM-0069",
+      "glyph": "🧩",
+      "source_meaning": "Puzzle-piece / modular tags",
+      "source_category": "Metadata",
+      "source_verification": "Source draft",
+      "source_tags": [
+        "category.metadata",
+        "status.source_draft"
+      ],
+      "source_receipt": "Current conversation / established project context",
+      "source_canon_handling": "Draft / NOT CANON",
+      "registry_status": "draft_not_canon",
+      "canon_promoted": false
+    },
+    {
+      "symbol_id": "AEI-SYM-0070",
+      "glyph": "🔸🛡️",
+      "source_meaning": "Amber Guard insignia",
+      "source_category": "Guard symbols",
+      "source_verification": "Canonical",
+      "source_tags": [
+        "category.guard_symbols",
+        "status.canonical"
+      ],
+      "source_receipt": "Current conversation / established project context",
+      "source_canon_handling": "Existing meaning",
+      "registry_status": "draft_not_canon",
+      "canon_promoted": false
+    },
+    {
+      "symbol_id": "AEI-SYM-0071",
+      "glyph": "🔹🛡️",
+      "source_meaning": "Nocturnal Guard insignia",
+      "source_category": "Guard symbols",
+      "source_verification": "Canonical",
+      "source_tags": [
+        "category.guard_symbols",
+        "status.canonical"
+      ],
+      "source_receipt": "Current conversation / established project context",
+      "source_canon_handling": "Existing meaning",
+      "registry_status": "draft_not_canon",
+      "canon_promoted": false
+    },
+    {
+      "symbol_id": "AEI-SYM-0072",
+      "glyph": "⛩️💂🏾‍♀️🛡️⛩️",
+      "source_meaning": "Threshold Guardian insignia",
+      "source_category": "Guard symbols",
+      "source_verification": "Canonical",
+      "source_tags": [
+        "category.guard_symbols",
+        "status.canonical"
+      ],
+      "source_receipt": "Current conversation / established project context",
+      "source_canon_handling": "Existing meaning",
+      "registry_status": "draft_not_canon",
+      "canon_promoted": false
+    }
+  ]
+}
