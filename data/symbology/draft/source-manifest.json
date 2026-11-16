@@ -1,0 +1,39 @@
+{
+  "manifest_version": "0.1.0",
+  "status": "draft_not_canon",
+  "source_of_snapshot": {
+    "type": "native_google_sheet",
+    "url": "https://docs.google.com/spreadsheets/d/1o8B4HTX_4f3cL6M7N0dli0oCP9mraMC7nTSeRGURlbg/edit",
+    "tab": "Emoji Ledger",
+    "range": "A1:H73",
+    "count": 72
+  },
+  "additional_evidence_references": [
+    {
+      "path": "canon/registries/canon-index.md",
+      "role": "existing governance reference; unchanged"
+    },
+    {
+      "path": "canon/registries/corrections.json",
+      "role": "existing canon corrections; unchanged"
+    },
+    {
+      "name": "Triquel_Symbology_Color_Tagging_Library.zip",
+      "role": "prior source bundle cited in project context, not asserted independently complete"
+    },
+    {
+      "name": "01_Master_Symbology_Color_Tagging_Library.md",
+      "role": "receipt named by ledger"
+    },
+    {
+      "name": "05_Safety_And_Consent_Signals.md",
+      "role": "receipt named by ledger"
+    }
+  ],
+  "limitations": [
+    "No file hashes for source bundle; do not claim byte-level source verification",
+    "Conversation-based receipts are not independently auditable",
+    "Source verification values do not elevate draft records to canon"
+  ],
+  "count": 72
+}
